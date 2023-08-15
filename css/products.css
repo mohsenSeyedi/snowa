@@ -1,0 +1,208 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./default-style.css";
+@import "./footer.css";
+@import "./cart-content.css";
+@import "./side-menu.css";
+
+body{
+    background-color: #f7f7f7;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container-fluid::after{
+     content: "";
+     position: absolute;
+     background-color: black;
+     opacity: .6;
+     width: 100%;
+     height: 100%;
+     z-index: 100;
+     top: 0;
+     visibility: hidden;
+ }
+.container-fluid.active::after{
+    visibility: visible;
+}
+
+/* list-filters */
+.list-filters{
+    width: 100%;
+    height: 11rem;
+    background-color: var(--white-color);
+    margin-top: 2rem;
+}
+.list-filters__container{
+    width: 100%;
+    height: 6rem;
+}
+.list-filters__container-products{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3rem;
+}
+.list-filters__container-products a{
+    font-size: 1.5rem;
+    padding: .7rem 1.5rem;
+    border-radius: 2rem;
+    transition: all .2s;
+}
+.list-filters__container-products a.active{
+    background-color: #2191db ;
+    color: var(--white-color);
+}
+.list-filters__container-products a:hover{
+    background-color: #2191db ;
+    color: var(--white-color);
+}
+
+.filter-icon__container{
+    width: 100%;
+    height: 100%;
+    padding: 1rem 4rem 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-icon-btn{
+    border: none;
+    background-color: var(--white-color);
+    font-family: var(--primery-font);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.filter-icon-btn svg{
+    width: 3rem;
+    height: 3rem;
+}
+.filter-icon-text{
+    font-size: 1.4rem;
+}
+.filter-icon-angle{
+    border: none;
+    background-color: var(--white-color);
+    font-family: var(--primery-font);
+    margin-left: 2rem;
+    opacity: .6;
+    cursor: pointer;
+}
+
+/* End of list-filters */
+
+/* products-container */
+.products-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.cards-products__container{
+    width: 95%;
+    height: auto;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 30rem);
+    column-gap: 2rem;
+}
+.card-product{
+    width: 30rem;
+    height: 55rem;
+    background-color: var(--white-color);
+    border-radius: .3rem;
+    margin-bottom: 3rem;
+}
+.card-product__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+.card-product-contaent__img{
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-card-img{
+    width: 100%;
+}
+.card-product__title{
+    margin: 2rem 0 5rem 0;
+}
+.card-product-title__link{
+    font-size: 1.5rem;
+}
+.card-product-model{
+    margin-bottom: 1rem;
+}
+.card-product__price{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 4rem 2rem;
+    color: #999;
+}
+.card-product__send{
+    border-top: 1px solid #cccccc;
+}
+.card-product__send-icon{
+    display: flex;
+    align-items: center;
+    color: #5c5c5c;
+    font-size: 1.2rem;
+    padding: 1rem 1.2rem 0 1.2rem;
+}
+.card-product__send-icon svg{
+    margin-right: .4rem;
+}
+.card-product__send-icon span{
+    margin-right: .4rem;
+}
+.card-product__footer{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-product__btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-product__btn-link{
+    background: var(--blue-color);
+    color: var(--white-color);
+    width: 90%;
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-radius: .3rem;
+}
+.card-product-buy{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+
+/* End of products-container */
+
+.footer{
+    margin-top: 45em;
+}
+.banner-icon-img{
+    width: 7rem;
+    height: 7rem;
+}

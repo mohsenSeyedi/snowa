@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جزئیات محصول</title>
+    <link rel="stylesheet" href="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_css_all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/ProductDetails.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+      <!-- header -->
+      <header class="header">
+        <div class="color-bar"></div>
+        <div class="header__wrap">
+            <div class="header-logo">
+                <img src="images/logo/logo-type.svg" alt="" class="logo-img">
+            </div>
+            <div class="header-container-nav">
+                <div class="side-menu-accordion-body">
+                    <nav class="accordion arrows">
+               
+                        <input type="radio" name="accordion" id="cb1" />
+                        <section class="box">
+                          <label class="box-title" for="cb1">محصولات</label>
+                          <label class="box-close" for="acc-close"></label>
+                          <div class="box-content-container">
+                            <a href="products.html" class="box-content">تلویزیون</a>
+                            <a href="products.html" class="box-content">ماشین لباسشویی</a>
+                            <a href="products.html" class="box-content">اجاق گاز</a>
+                            <a href="products.html" class="box-content">یخچال و فریزر</a>
+                            <a href="products.html" class="box-content">ماشین ظرفشویی</a>
+                          </div>
+                        </section>
+                        <input type="radio" name="accordion" id="cb2" />
+                        <section class="box">
+                          <label class="box-title" for="cb2">جشنواره‌ها</label>
+                          <label class="box-close" for="acc-close"></label>
+                          <div class="box-content-container">
+                            <a href="#" class="box-content">جشنواره تابستانه ۱۴۰۲</a>
+                            <a href="#" class="box-content">طرح فروش اقساطی</a>
+                            <a href="#" class="box-content">جشنواره زمستانه ۱۴۰۱</a>
+                            <a href="#" class="box-content">فعال سازی کارت تخفیف</a>
+                          </div>
+                        </section>
+                        <a href="#" class="box">
+                          <label class="box-title">فروشگاه ها</label>
+                        </a>
+                        <a href="#" class="box">
+                          <label class="box-title">چرا اسنوا</label>
+                        </a>
+                        <a href="#" class="box">
+                          <label class="box-title">سبک زندگی</label>
+                        </a>
+                        <input type="radio" name="accordion" id="cb3" />
+                        <section class="box">
+                          <label class="box-title" for="cb3">خدمات</label>
+                          <label class="box-close" for="acc-close"></label>
+                          <div class="box-content-container">
+                            <a href="#" class="box-content">درخواست نصب و تعمیر</a>
+                            <a href="#" class="box-content">خدمات پس از فروش</a>
+                          </div>
+                        </section>
+                    
+                        <input type="radio" name="accordion" id="acc-close" />
+                      </nav>
+                      <div class="header-info">
+                        <button class="profile-menu-btn">
+                            <a href="login.html">
+                                <i class="fa-regular fa-user icon-user"></i>
+                            </a>
+                        </button>
+                       </div> 
+                </div>
+            </div>
+            <div class="header-btns">
+                <div class="header-sreach">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header-nav-btn">
+                    <i class="fa-solid fa-bars opening-nav"></i>
+                    <i class="fa-solid fa-xmark close-nav"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box-search-bar">
+            <input type="text" placeholder="به دنبال چی میگردید ؟!" class="box-search-input"> 
+            <small>نمایش نتایج از</small>
+            <span>بخش محصولات</span>
+        </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- banner-container -->
+    <div class="banner-container page-container">
+        <div class="banner-img">
+               <div class="intro-content">
+                  <h2 id="intro-btn-introduction">تلویزیون هوشمند QLED اسنوا سایز ۶۵ اینچ</h2>
+                  <p  id="intro-btn-1"> SQL-65QK800UD </p>
+                  <a href="#" id="intro-btn-2">”۶۵ / Ultra HD / مشکی</a>
+               </div>
+        </div>
+
+        <div class="banner-icons-wrapper">
+            <div class="banner-icon">
+                <div href="#card-4" class="banner-icon-content">
+                    <img src="images/productDetails/banner-icon/65-p-tv-smart-tv-1.svg" alt="" class="banner-icon-img">
+                    <div class="banner-icon-text">
+                        <p class="banner-icon-title">Smart TV</p>
+                        <p class="banner-icon-description">با تلویزیون هوشمند به دنیای محتوا، بازی و سرگرمی شیرجه بزنین</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-icon">
+                <div href="#card-2" class="banner-icon-content">
+                    <img src="images/productDetails/banner-icon/3-p-tv-4k-1.svg" alt="" class="banner-icon-img">
+                    <div class="banner-icon-text">
+                        <p class="banner-icon-title">Ultra HD (4K)</p>
+                        <p class="banner-icon-description">چهار برابر واقعی‌تر! لذت دیدن جزئیات با کیفیت بالای نور، رنگ و تصویر</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-icon">
+                <div href="#card-1" class="banner-icon-content">
+                    <img src="images/productDetails/banner-icon/4-p-tv-ips-2.svg" alt="" class="banner-icon-img">
+                    <div class="banner-icon-text">
+                        <p class="banner-icon-title">پنل IPS</p>
+                        <p class="banner-icon-description">پنل مقاوم با زاویه‌دید بالاتر، مناسبِ یک اتاق نشیمن بزرگ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-icon banner-icon-4">
+                <a href="#">
+                <img src="images/productDetails/banner-icon/shop-first.svg" alt="" class="banner-icon-img">
+                <p class="banner-icon-title banner-icon-title-4">فروشگاه ها</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End of banner-container -->
+
+    <!-- gallery -->
+    <div class="gallery-container">
+         <div class="intro-gallery">
+            <h2 id="intro-introduction-gallery">کشف دنیای رنگارنگ</h2>
+            <p  id="intro-gallery-text">نمایش یک میلیارد رنگ با فناوری برتر کوانتوم‌دات</p>
+         </div>
+         <div class="gallery-container-imgs">
+            <div class="gallery-container-imgs__top">
+                <div class="gallery-container-imgs__top-rigth">
+                    <div class="img-gallery">
+                        <img src="images/productDetails/gallery/4-Masonry-grid-copy-1-490x999.jpg" alt="">
+                        <div class="gallery-feature">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="tooltip-inner tooltip-inner-1">
+                            <p>شبکه‌ای خیره‌کننده از نقاط کوچک کوانتومی (Quantum dots (QDs))، یه میلیارد رنگ رو با دقت فوق‌العاده‌ای برای داشتنِ کنتراست شدید، آزاد می‌کنن.</p>
+                        </div>
+                        <div class="img-gallery-hover-color">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-container-imgs__top-center-left">
+                    <div class="gallery-container-imgs__top-center-left__top">
+                        <div class="img-gallery">
+                            <img src="images/productDetails/gallery/3-Masonry-grid-5-900x900.jpg" alt="">
+                            <div class="gallery-feature">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="tooltip-inner tooltip-inner-2">
+                               <p>موقعی که کیفیت تصویر پایین باشه، تلویزیون با استفاده از ویژگی UHD Upscaling، کیفیت رو افزایش می‌ده تا جزئیات بیشتری روی صفحه نمایش برای شما نقش ببنده.</p>
+                            </div>
+                            <div class="img-gallery-hover-color">
+                            </div>
+                        </div>
+                        <div class="img-gallery">
+                            <img src="images/productDetails/gallery/2-Masonry-grid-17-900x900.jpg" alt="">
+                            <div class="gallery-feature">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="tooltip-inner tooltip-inner-3">
+                               <p>وقتی با local dimming نور ال‌ای‌دی‌های پس‌زمینه بر اساس نوع تصویر، کم و زیاد بشه و تنظیمات رنگ، کنتراست و روشنایی به صورت جداگانه انجام بشه، عمق رنگ مشکی و درخشش رنگ‌های روشن بیشتر می‌شه. این یعنی وضوح و کنتراست بالای تصاویر که توی این تلویزیون تجربه‌اش می‌کنین.</p>
+                            </div>
+                            <div class="img-gallery-hover-color">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-container-imgs__top-center-left__center">
+                        <div class="img-gallery">
+                            <img src="images/productDetails/gallery/5-Masonry-grid-17-900x450.jpg" alt="">
+                            <div class="gallery-feature">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="tooltip-inner tooltip-inner-4">
+                               <p>با تکنولوژی دالبی دیجیتال پلاس (Dolby digital plus)، بهترین صدایی که تا حالا شنیدین رو تجربه کنین. با این تکنولوژی، صدای فراگیر و جذابِ یه سیستم صوتی ۶ یا  ۸ تکه توی تلویزیون شما شبیه‌سازی می‌شه. همچنین با فناوری dbx و حذف نویز، صدایی شفاف و واضح به گوش شما می‌رسه.</p>
+                            </div>
+                            <div class="img-gallery-hover-color">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container-imgs__bottom">
+                <div class="img-gallery">
+                    <img src="images/productDetails/gallery/6-Masonry-grid-11-900x296.jpg" alt="">
+                    <div class="gallery-feature">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="tooltip-inner tooltip-inner-5">
+                        <p>نقطه‌های کوانتومی ۱۰۰٪ حجم رنگ رو به شما نشون می‌ده تا هیچ رنگی رو توی هیچ سطح روشنایی از دست ندین.</p>
+                    </div>
+                    <div class="img-gallery-hover-color">
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <!-- End of gallery -->
+
+    <!-- section-feature  -->
+    <div class="section-feature">
+        <div class="section-feature-content">
+            <div class="section-feature-rigth">
+                <div class="intro-feature">
+                    <h2 id="intro-introduction-feature">دقیق‌تر ببین...</h2>
+                    <p  id="intro-feature-text">نگاه ۳۶۰ درجه به تلویزیون هوشمند QLED اسنوا ۶۵ اینچ</p>
+                 </div>
+                 <div class="section-feature-rigth__text">
+                    <p>استفاده از فناوری‌هایی برای بالا بردن وضوح تصاویر، برتری این تلویزیونه. تنظیم نور منطقه‌ای (Local dimming) به صورت نرم‌افزاری باعث شده که رنگ مشکی، مشکی‌تر و رنگ‌های درخشان، درخشان‌تر بشن؛ این یعنی داشتن یه ماه کامل روشن در یه شب تیره!</p>
+                    <p>هشت میلیون پیکسل با کیفیت UHD تصاویر ۴K را با تمامی جزئیات برای شما به نمایش می‌ذارن؛ حتی اگر ویدیویی با کیفیت پایین‌تر داشته باشین، تصاویر آنالیز شده و کیفیت اون‌ها با سیستم (UHD Upscaling) افزایش پیدا می‌کنه.
+                        تلویزیون هوشمند QLED اسنوا با تکنولوژی دالبی دیجیتال پلاس و dbx، صدای جذاب و فراگیر یه سیستم صوتی ۶ یا ۸ تکه رو برای شما شبیه‌سازی می‌کنه.
+                        وقتی قابلیت‌های هوشمندی این تلویزیون رو بر بستر سیستم‌عامل اندروید در نظر بگیرین، دیگه شک نخواهین داشت که این تلویزیون انتخاب اول شماست. شما می‌تونین به اینترنت متصل بشین، صفحه نمایش گوشی و تبلت موبایل خودتون رو بدون سیم به اشتراک بذارین، بازی کنین و از امکانات بی‌شمار شبکه‌ی جهانی وب استفاده کنین.
+                    </p>
+                 </div>
+                 <div class="section-feature-rigth__icons">
+                    <div class="section-feature-rigth__icon">
+                        <img src="images/productDetails/banner-icon/41-p-tv-android-1.svg" alt="">
+                        <p>Android</p>
+                    </div>
+                    <div class="section-feature-rigth__icon">
+                        <img src="images/productDetails/banner-icon/3-p-tv-4k-1.svg" alt="">
+                        <p>Ultra HD (4K)</p>
+                    </div>
+                    <div class="section-feature-rigth__icon">
+                        <img src="images/productDetails/banner-icon/28-p-tv-digital-dolby-plus-2.svg" alt="">
+                        <p>Dolby Digital Plus</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="section-feature-left">
+                <img src="images/productDetails/1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End of section-feature  -->
+    
+    <!-- section-review-product -->
+    <div class="section-review-product">
+        <div class="section-review-product-content">
+            <div class="intro-review-product">
+                <h2 id="intro-introduction-review-product">بررسی توی یه چشم به‌هم زدن</h2>
+                <p  id="intro-review-product-text">اگه می‌خوای در زمان کوتاه، ویژگی‌ها رو مرور کنی.</p>
+             </div>
+             <div class="section-review-product-icons">
+                <ul class="section-review-product-icons-content">
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/65-p-tv-smart-tv-1.svg" alt="">
+                            <span>Smart TV</span>
+                            <p>دسترسی به اخبار، VODها، بازی‌های مختلف، برنامه‌های سبک زندگی، وضعیت آب‌وهوا، اشتراک‌گذاری از روی گوشی همراه و... همه و همه در تلویزیون هوشمند شما</p>
+                        </div>
+                    </li>
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/49-p-tv-TV-Quantum-dot-1.svg" alt="">
+                            <span>Quantom Dot</span>
+                            <p>نقطه‌های کوانتومی، یه میلیارد رنگ جذاب و چشم‌نواز رو به شما نمایش می‌دن.</p>
+                        </div>
+                    </li>
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/3-p-tv-4k-1.svg" alt="">
+                            <span>Ultra HD (4K)</span>
+                            <p>چهار برابر واقعی‌تر!
+                                ۸.۳ میلیون پیکسل باکیفیت آماده‌ی به رخ کشیدن توانایی‌های خودشون هستن.</p>
+                        </div>
+                    </li>
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/4-p-tv-ips-2.svg" alt="">
+                            <span>Smart TV</span>
+                            <p>با قابلیت برگشت تصویر به عقب، هیچ صحنه‌ای از دست نمی‌ره.</p>
+                        </div>
+                    </li>
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/19-p-tv-time-shift-1.svg" alt="">
+                            <span>Smart TV</span>
+                            <p>با قابلیت برگشت تصویر به عقب، هیچ صحنه‌ای از دست نمی‌ره.</p>
+                        </div>
+                    </li>
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/20-p-tv-pvr-1.svg" alt="">
+                            <span>Smart TV</span>
+                            <p>ضبط برنامه‌های تلویزیون روی حافظه‌ی جانبی</p>
+                        </div>
+                    </li>
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/28-p-tv-digital-dolby-plus-2.svg" alt="">
+                            <span>Smart TV</span>
+                            <p>انتشار یکنواخت صدای پرحجم در تمام جهات، با وضوح بالا</p>
+                        </div>
+                    </li>
+                    <li class="section-review-product-icon">
+                        <div>
+                            <img src="images/productDetails/banner-icon/18-p-tv-dvbt2-2.svg" alt="">
+                            <span>Smart TV</span>
+                            <p>دسترسی به تمام شبکه‌های داخلی بدون نیاز به گیرنده‌ی دیجیتال جداگانه</p>
+                        </div>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </div>
+    <!-- End of section-review-product -->
+
+    <!-- section-darkness -->
+    <div class="section-darkness">
+        <div class="section-darkness-rigth"></div>
+        <div class="section-darkness-left">
+            <div class="intro-darkness">
+                <h2 id="intro-introduction-darkness">بالاتر از سیاهی</h2>
+                <p  id="intro-darkness-text">هر رنگی جای خودش را داره</p>
+            </div>
+            <p class="section-darkness-left__text-center">تلویزیون QLED اسنوا با استفاده از برترین فناوری‌های روز دنیا، یه میلیارد رنگ با وضوح بی‌نظیر رو به شما هدیه می‌ده. استفاده از فناوری Quantom Dot و نور پس‌زمینه Mini-LED و هشت میلیون پیکسل، تجربه‌ای بی‌نظیر رو با شما به اشتراک می‌ذاره.</p>
+            <div class="section-darkness-left__icons">
+                <div class="section-darkness-left__icon">
+                    <img src="images/productDetails/banner-icon/51-p-tv-TV-local-dimming-1.svg" alt="">
+                    <span>Local dimming</span>
+                    <p>نورپردازی هوشمند بلوک‌های نور پس‌زمینه بر اساس میزان درخشندگی تصاویر، عمق رنگ مشکی رو به‌طور چشم‌گیری افزایش داده.</p>
+                </div>
+                <hr>
+                <div class="section-darkness-left__icon">
+                    <img src="images/productDetails/banner-icon/7-p-tv-hdr10-1.svg" alt="">
+                    <span>HDR10</span>
+                    <p>قابلیت HDR10 به‌صورت خودکار، رنگ و وضوح تصویر رو به‌گونه‌ای تنظیم می‌کنه که اجسام و زوایای اون‌ها حتی توی پس‌زمینه‌ی هم رنگشون، به‌طور کامل قابل تشخیص باشن.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of section-darkness -->
+
+    <!-- section-inbox -->
+    <div class="section-inbox">
+        <div class="section-inbox-content">
+            <div class="inbox-side">
+                <div class="intro-inbox">
+                    <h2 id="intro-introduction-inbox">اقلام در جعبه</h2>
+                    <p  id="intro-inbox-text">In Box</p>
+                </div>
+                <ul class="section-inbox-content-icons">
+                    <li class="section-inbox-content-icon">
+                        <img src="images/productDetails/banner-icon/48-p-tv-TV-stand-1.svg" alt="">
+                        <div class="section-inbox-content-icon-text">
+                            <span>پایه‌ی تلویزیون</span>
+                            <p>پایه‌ی تلویزیون همراه راهنمای نصب</p>
+                        </div>
+                    </li>
+                    <li class="section-inbox-content-icon">
+                        <img src="images/productDetails/banner-icon/45-p-tv-smart-remote-2.svg" alt="">
+                        <div class="section-inbox-content-icon-text">
+                            <span>ریموت کنترل</span>
+                            <p>کنترل از راه دور تلویزیون، پرقدرت و باکیفیت</p>
+                        </div>
+                    </li>
+                    <li class="section-inbox-content-icon">
+                        <img src="images/productDetails/banner-icon/44-p-tv-Ordinary-remote-2.svg" alt="">
+                        <div class="section-inbox-content-icon-text">
+                            <span>ریموت کنترل</span>
+                            <p>کنترل از راه دور تلویزیون، پرقدرت و باکیفیت</p>
+                        </div>
+                    </li>
+                    <li class="section-inbox-content-icon">
+                        <img src="images/productDetails/banner-icon/راهنمای-فارسی.svg" alt="">
+                        <div class="section-inbox-content-icon-text">
+                            <span>دفترچه راهنمای فارسی</span>
+                            <p>راهنمای فارسی استفاده از محصول و نصب پایه</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="inbox-center">
+                <img src="images/productDetails/banner-icon/11-Wire-36.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End of section-inbox -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="color-bar"></div>
+        <div class="footer-wrap">
+            <div class="footer-icons-wrapper">
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/2.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">تلویزیون</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">هوشمند</a>
+                        <a href="#">50 اینچ</a>
+                        <a href="#">55 اینچ</a>
+                        <a href="#">65 اینچ</a>
+                        <a href="#">75 اینچ</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/1.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">ماشین لباسشویی</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">دیجیتال اینورتر</a>
+                        <a href="#">7 کیلوگرم</a>
+                        <a href="#">8 کیلوگرم</a>
+                        <a href="#">9 کیلوگرم</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/3.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">یخچال فریزر</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">ساید بای ساید</a>
+                        <a href="#">یخچال فریزر تک درب</a>
+                        <a href="#">فریزر بالا</a>
+                        <a href="#">فریزر پایین</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/4.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">اجاق گاز</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">سری Chef</a>
+                        <a href="#">سری رومینا</a>
+                        <a href="#">سری آترینا</a>
+                        <a href="#">سری والنتینو</a>
+                        <a href="#">سری آدرینا</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/5.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">ماشین ظرفشویی</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">14 نفره</a>
+                        <a href="#">12 نفره</a>
+                        <a href="#">10 نفره</a>
+                        <a href="#">8 نفره</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-social-logo">
+            <img src="images/logo/logo-type.svg" alt="" class="logo-img footer-logo-img">
+            <div class="footer-social-icon">
+                <a href="#"><img src="images/social-icon/telegram.svg" alt="" class="footer-social-icon-img"></a>
+                <a href="#"><img src="images/social-icon/instagram.svg" alt="" class="footer-social-icon-img"></a>
+                <a href="#"><img src="images/social-icon/aparat-1-150x150.png" alt="" class="footer-social-icon-img"></a>
+                <a href="#"><img src="images/social-icon/linkedin.svg" alt="" class="footer-social-icon-img"></a>
+                <a href="#"><img src="images/social-icon/twitter.svg" alt="" class="footer-social-icon-img"></a>
+            </div>
+            <p>اسنـوا را در شبکه‌های اجتماعی دنبال کنید</p>
+        </div>
+        <div class="footer-copyright">
+            <span> © 1384-1401 اسنوا؛ کلیه حقوق محفوظ است</span>
+        </div>
+      </footer>
+      <!-- End of footer -->
+    
+
+    <script src="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_js_all.min.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

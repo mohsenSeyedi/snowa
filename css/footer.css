@@ -1,0 +1,101 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./default-style.css";
+@import "./color-bar.css";
+
+.footer{
+    width: 100%;
+    position: relative;
+    padding-top: 1rem;
+}
+.footer div{
+   margin-top: 3rem;
+}
+.footer-icons-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6rem;
+}
+.product-model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-model a{
+    padding: .6rem 0;
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}
+.footer-icon-title{
+    font-size: 1.2rem;
+    color: #707070;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+.footer-divider{
+    height: .2rem;
+    border-radius: .2rem;
+    background: #E6E6E6;
+    margin-bottom: 3.75rem;
+}
+.footer-social-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1rem;
+    margin-bottom: 7rem;
+}
+.footer-social-icon{
+    border-top: solid 2px #cccccc;
+    border-bottom: solid 2px #cccccc;
+    padding: 1.5rem 0px;
+    width: 210px;
+}
+.footer-logo-img{
+    margin-right: 2rem;
+    width: 17rem;
+    height: 5rem;
+}
+.footer-social-icon a{
+    padding: 1rem .7rem;
+}
+.footer-social-icon-img{
+    opacity: 0.6;
+    transition: all .2s;
+}
+.footer-social-icon-img:hover{
+    opacity: 1;
+}
+.footer-social-logo p{
+    color: #0046ab;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1.2rem;
+}
+
+.footer-social-icon-img{
+    width: 2rem;
+    height: 2rem;
+}
+.footer-copyright{
+    text-align: center;
+    margin: 3rem 0 0 0;
+    background: var(--blue-color);
+    color: var(--white-color);
+    padding: 2.5rem 1.5rem;
+}
+.footer-copyright span{
+    opacity: 0.5;
+    font-size: 1.2rem;
+}
