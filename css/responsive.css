@@ -6,6 +6,7 @@
 
     .banner-icons-wrapper{
         margin-right: 1rem;
+        display: none;
     }
     .banner-icon{
         margin: 0 2.5rem;
@@ -165,6 +166,9 @@
   align-items: center;
  }
 .section-inbox-content {
+  margin-bottom: -125rem;
+}
+.section-readable{
   margin-bottom: -125rem;
 }
 
@@ -329,11 +333,14 @@
     padding-right: 8rem;
  }
   .section-readable{
-    margin-top: 50rem;
+    margin-top: 30rem;
  }
+ .section-readable{
+  margin-bottom: -80rem;
+}
 
  .footer{
-  margin-top: 30rem;
+  margin-top: 0rem;
  }
      /* products */
   .cards-products__container{
@@ -423,6 +430,9 @@
 /* End of products */
 .section-inbox-content{
   margin-bottom: -290rem;
+}
+.section-readable{
+  margin-bottom: -280rem;
 }
 
 }
