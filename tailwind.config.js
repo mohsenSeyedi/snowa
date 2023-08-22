@@ -58,6 +58,9 @@ module.exports = {
         'bg-section-rtl': '#F2F3F7',
         'blue-color': 'linear-gradient(45deg, #0078c8 0%, #0032a0 100%);',
       },
+      boxShadow: {
+        'color-bar': '-72vw 0 0 8px #78be1e, -65vw 0 0 8px #019e43, -58vw 0 0 8px #0182c6, 0vw 0 0 8px #1d4f9b',
+      }
     },
   },
   plugins: [],
