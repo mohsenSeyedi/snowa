@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+    @apply font-body
+}
+
+@font-face{
+    font-family: IRANSans;
+    src:url('../fonts/IRANSans/IRANSans.ttf');
+}

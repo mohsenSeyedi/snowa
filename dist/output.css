@@ -538,19 +538,17 @@ video {
   box-sizing: content-box;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+html {
+  @a
+
+}
+
+@font-face{
+  font-family: IRANSans;
+
+  src:url('../fonts/IRANSans/IRANSans.ttf');
 }
