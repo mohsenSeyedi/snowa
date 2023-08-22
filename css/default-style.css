@@ -17,11 +17,5 @@ a{
     color: var(--primery-text-color);
 }
 
-*,
-*::after,
-*::before{
-    outline: none;
-    box-sizing: inherit;
-    text-decoration: none;
-}
+
 /* End of default Styles */

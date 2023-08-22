@@ -7,6 +7,15 @@ html {
     @apply font-body
 }
 
+@layer {
+    *,
+    *::after,
+    *::before{
+    @apply no-underline
+}
+}
+
+
 @font-face{
     font-family: IRANSans;
     src:url('../fonts/IRANSans/IRANSans.ttf');
