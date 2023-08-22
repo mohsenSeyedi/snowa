@@ -13,9 +13,6 @@ body{
     position: relative;
 }
 
-a{
-    color: var(--primery-text-color);
-}
 
 
 /* End of default Styles */

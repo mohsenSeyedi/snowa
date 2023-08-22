@@ -5,9 +5,9 @@ const menuBtn=document.querySelector(".header-nav-btn")
 const menuDropdown=document.querySelector(".item-menu")
 const headerSubmenuItems=document.querySelector(".header-submenu-items")
 const headerInfo=document.querySelector(".header-info button");
-const searchBox=document.querySelector(".box-search-bar")
+const searchBox=document.querySelector("#box-search-bar")
 const searchBtn=document.querySelector(".header-sreach")
-const searchInput=document.querySelector(".box-search-input")
+const searchInput=document.querySelector("#box-search-input")
 
 
 

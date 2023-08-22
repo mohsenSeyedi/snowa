@@ -11,15 +11,17 @@
 </head>
 <body>
     
+
     <!-- page-home -->
     <div class="page-home">
 
+
         <!-- header -->
-        <header class="w-full h-20 transition-all duration-500 shadow-2xl shadow-black">
-            <div class="absolute top-0 left-0 right-0 h-1 shadow-color-bar"></div>
-            <div class="header__wrap">
+        <header class="w-full h-32">
+            <div class="shadow-bar absolute h-px top-0 left-0 right-0"></div>
+            <div class="bg-white-color flex justify-between items-center p-5">
                 <div class="header-logo">
-                    <img src="images/logo/logo-type.svg" alt="" class="logo-img">
+                    <img class="w-60 h-20" src="images/logo/logo-type.svg" alt="snowa">
                 </div>
                 <div class="header-container-nav">
                     <div class="side-menu-accordion-body">
@@ -79,19 +81,19 @@
                     </div>
                 </div>
                 <div class="header-btns">
-                    <div class="header-sreach">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="header-sreach ml-6 mr-4 mt-4">
+                        <i class="fa-solid fa-magnifying-glass mt-4 text-primery-color" style="font-size: 2rem;"></i>
                     </div>
-                    <div class="header-nav-btn">
-                        <i class="fa-solid fa-bars opening-nav"></i>
-                        <i class="fa-solid fa-xmark close-nav"></i>
+                    <div class="header-nav-btn ml-6 mr-4 relative left-4 -top-4">
+                        <i class="fa-solid fa-bars opening-nav absolute text-5xl text-[#0182c6] cursor-pointer"></i>
+                        <i class="fa-solid fa-xmark close-nav absolute text-5xl text-[#0182c6] cursor-pointer invisible"></i>
                     </div>
                 </div>
             </div>
-            <div class="box-search-bar">
-                <input type="text" placeholder="به دنبال چی میگردید ؟!" class="box-search-input"> 
-                <small>نمایش نتایج از</small>
-                <span>بخش محصولات</span>
+            <div class="flex flex-col absolute -top-80 w-full h-60 bg-white-color z-999 transition-all duration-500 shadow-search" id="box-search-bar">
+                <input class="border-none text-4xl font-body px-8 py-8 placeholder:text-[#ababab]" type="text" placeholder="به دنبال چی میگردید ؟!" id="box-search-input"> 
+                <small class="text-2xl pr-8 text-[#ababab]">نمایش نتایج از</small>
+                <span class="text-primery-color text-2xl pt-4 pr-8 pl-0 pb-0">بخش محصولات</span>
             </div>
         </header>
         <!-- End of header -->
