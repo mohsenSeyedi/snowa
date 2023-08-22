@@ -27,17 +27,17 @@
     width: 15rem;
     height: 5rem;
 } */
-.header-btns{
+/* .header-btns{
     display: flex;
     align-items: center;
-}
+} */
 
-.header-btns-cart-icon{
+/* .header-btns-cart-icon{
     font-size: 2rem;
     margin-top: 1rem;
     cursor: pointer;
     color: #666;
-}
+} */
 /* .header-btns div{
     margin-left: 1.5rem;
     margin-right: 1rem;
@@ -98,9 +98,9 @@
     font-family: var(--primery-font);
     padding: 2rem;
 } */
-.box-search-input::placeholder{
+/* .box-search-input::placeholder{
     color: #ababab;
-}
+} */
 /* End of search-box */
 
 
