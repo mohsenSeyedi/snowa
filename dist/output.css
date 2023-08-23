@@ -553,10 +553,24 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.transition-defult {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
+.banner-icon {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-icon-title {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -601,8 +615,16 @@ video {
   right: -60rem;
 }
 
+.right-8 {
+  right: 2rem;
+}
+
 .top-32 {
   top: 8rem;
+}
+
+.top-35 {
+  top: 35rem;
 }
 
 .z-1000 {
@@ -617,14 +639,14 @@ video {
   margin: auto;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .ml-25 {
@@ -651,24 +673,8 @@ video {
   margin-top: 1rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-52 {
-  margin-top: 13rem;
-}
-
 .mt-48 {
   margin-top: 12rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .box-content {
@@ -683,12 +689,12 @@ video {
   display: flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-20 {
   height: 5rem;
+}
+
+.h-28 {
+  height: 7rem;
 }
 
 .h-32 {
@@ -703,8 +709,8 @@ video {
   height: 90vh;
 }
 
-.h-16 {
-  height: 4rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-29 {
@@ -755,16 +761,12 @@ video {
   overflow-y: hidden;
 }
 
-.border {
-  border-width: 1px;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-s {
-  border-inline-start-width: 1px;
 }
 
 .border-solid {
@@ -775,27 +777,22 @@ video {
   border-style: none;
 }
 
-.border-white-color {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-\[white-color\] {
-  border-color: white-color;
-}
-
-.border-\[\] {
-  border-color: ;
-}
-
 .border-\[\#d2d2d2\] {
   --tw-border-opacity: 1;
   border-color: rgb(210 210 210 / var(--tw-border-opacity));
 }
 
+.bg-blue-color {
+  background-color: linear-gradient(45deg, #0078c8 0%, #0032a0 100%);;
+}
+
 .bg-white-color {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-blue-color {
+  background-image: linear-gradient(45deg, #0078c8 0%, #0032a0 100%);;
 }
 
 .p-5 {
@@ -807,9 +804,24 @@ video {
   padding-right: 0px;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-40 {
@@ -820,6 +832,11 @@ video {
 .py-40\% {
   padding-top: 40%;
   padding-bottom: 40%;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-8 {
@@ -866,11 +883,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-\[\#363636\] {
   --tw-text-opacity: 1;
   color: rgb(54 54 54 / var(--tw-text-opacity));
@@ -881,9 +893,19 @@ video {
   color: rgb(171 171 171 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-primery-color {
   --tw-text-opacity: 1;
   color: rgb(102 102 102 / var(--tw-text-opacity));
+}
+
+.text-white-color {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .opacity-40 {
@@ -926,14 +948,6 @@ video {
   transition-duration: 500ms;
 }
 
-.duration-150 {
-  transition-duration: 150ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 html {
   font-family: IRANSans, sans-serif;
 }
@@ -956,28 +970,6 @@ a {
 .placeholder\:text-\[\#ababab\]::placeholder {
   --tw-text-opacity: 1;
   color: rgb(171 171 171 / var(--tw-text-opacity));
-}
-
-.before\:absolute::before {
-  content: var(--tw-content);
-  position: absolute;
-}
-
-.before\:inset-x-0::before {
-  content: var(--tw-content);
-  left: 0px;
-  right: 0px;
-}
-
-.before\:inset-y-0::before {
-  content: var(--tw-content);
-  top: 0px;
-  bottom: 0px;
-}
-
-.before\:block::before {
-  content: var(--tw-content);
-  display: block;
 }
 
 .after\:absolute::after {

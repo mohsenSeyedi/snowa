@@ -36,57 +36,17 @@
     transition: all .5s;
     position: relative;
 }
-.intro-content a{
-    position: absolute;
-    top: 35rem;
-    right: 2rem;
-    background-color: var(--white-color);
-    padding: 1.5rem 1rem;
-    border-radius: .5rem;
-    color: black;
-}
 .intro-content h2{
     position: absolute;
-    top: 27.5rem;
+    top: 25.5rem;
     right: -40rem;
     background: linear-gradient(-90deg, #0078c8 0%, #78be1e 100%);
-    color: var(--white-color);
+    color: #fff;
     padding: 2.5rem 3.5rem;
     font-size: 2.5rem;
     border-radius: .5rem;
     box-shadow: 0 0.0625rem 0.125rem rgba(0,0,0,0.02);
     transition: all .5s .2s;
-}
-
-.banner-icons-wrapper{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-.banner-icon{
-    margin: 0 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.banner-icon-img{
-    width: 7rem;
-    height: 7rem;
-}
-.banner-icon-title{
-    font-size: 1.2rem;
-    color: var(--primery-text-color);
-    text-align: center;
-    padding-top: 1rem;
-}
-.banner-icon-6{
-    width: 15rem;
-    padding: .8rem 2.5rem;
-    background: var(--blue-color);
-}
-.banner-icon-6 .banner-icon-title {
-    color: var(--white-color);
 }
 /* End of banner */
 

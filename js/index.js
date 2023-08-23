@@ -1,6 +1,6 @@
 
 
-const bannerImg=document.querySelector(".banner-img")
+const bannerImg=document.querySelector("#banner-img")
 const introTitle=document.querySelector(".intro-content h2")
 
 

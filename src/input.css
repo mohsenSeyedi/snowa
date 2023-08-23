@@ -14,8 +14,11 @@
     .color-bar{
         @apply shadow-bar absolute h-px top-0 left-0 right-0
     }
-    .transition-defult{
-        @apply transition-all duration-300
+    .banner-icon{
+        @apply my-0 mx-16 flex flex-col items-center justify-center
+    }
+    .banner-icon-title {
+        @apply text-xl text-primery-color text-center pt-4
     }
 }
 
