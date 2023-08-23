@@ -1,8 +1,4 @@
-@import "./variables.css";
-@import "./fonts.css";
-@import "./header.css";
 @import "./default-style.css";
-@import "./color-bar.css";
 @import "./footer.css";
 @import "./side-menu.css";
 
@@ -351,8 +347,13 @@
 
  /* End of Section-readable */
 
-
-
+/* actived */
+ #box-search-bar.active{
+   top: 8rem;
+}
+#header-container-nav.active{
+   right: 0;
+}
 
 
 

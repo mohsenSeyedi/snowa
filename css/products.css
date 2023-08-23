@@ -1,9 +1,5 @@
-@import "./variables.css";
-@import "./fonts.css";
-@import "./header.css";
 @import "./default-style.css";
 @import "./footer.css";
-@import "./cart-content.css";
 @import "./side-menu.css";
 
 body{
@@ -195,14 +191,25 @@ body{
     margin-top: 3rem;
     font-size: 1.2rem;
 }
-
-
-/* End of products-container */
-
 .footer{
     margin-top: 45em;
 }
 .banner-icon-img{
     width: 7rem;
     height: 7rem;
+}
+
+/* End of products-container */
+
+/* actived */
+#box-search-bar.active{
+    top: 8rem;
+ }
+ 
+#cart-container-wrap.active{
+    right: 0;
+}
+
+#header-container-nav.active{
+    right: 0;
 }

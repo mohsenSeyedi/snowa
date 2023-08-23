@@ -1,6 +1,6 @@
 const body=document.querySelector("body")
 const bannerContainer=document.querySelector(".page-container")
-const menuContainer=document.querySelector(".header-container-nav")
+const menuContainer=document.querySelector("#header-container-nav")
 const menuBtn=document.querySelector(".header-nav-btn")
 const menuDropdown=document.querySelector(".item-menu")
 const headerSubmenuItems=document.querySelector(".header-submenu-items")
@@ -25,7 +25,7 @@ menuBtn.addEventListener("click" , ()=> {
     menuContainer.classList.toggle("active")
 
   
-    if(menuContainer.className === "header-container-nav active") {
+    if(menuContainer.classList.contains('active')) {
         menuBtn.firstElementChild.style.visibility="hidden"
         menuBtn.lastElementChild.style.visibility="visible"
         searchBtn.firstElementChild.style.color="#666"

@@ -1,12 +1,12 @@
 const cartBtn=document.querySelector(".header-cart-btn")
-const cartContainer=document.querySelector(".cart-container-wrap")
+const cartContainer=document.querySelector("#cart-container-wrap")
 
 
 
 // cart
 cartBtn.addEventListener("click" , () => {
     cartContainer.classList.toggle("active")
-    if(cartContainer.className === "cart-container-wrap active") {
+    if(cartContainer.classList.contains("active")) {
         searchBtn.firstElementChild.style.color="#666"
         searchBox.classList.remove("active")
         menuContainer.classList.remove("active")

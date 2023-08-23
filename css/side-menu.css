@@ -1,5 +1,5 @@
 /* menu */
-.header-container-nav{
+/* .header-container-nav{
   position: fixed;
   background-color: var(--white-color);
   width: 29rem;
@@ -10,41 +10,39 @@
   box-shadow: 0 1px 7px rgba(0,0,0,0.1);
   transition: all .3s;
   overflow-y: auto;
-}
-.header-container-nav.active{
- right: 0;
-}
+} */
 
-.header-info{
+
+/* .header-info{
   display: flex;
   align-items: center;
   justify-content: flex-end;
   border-top: 1px solid #d2d2d2;
   margin-top: 12rem;
-}
-.profile-menu-btn{
+} */
+/* .profile-menu-btn{
   margin: 2rem 1rem;
   border: none;
-}
-.icon-user{
+} */
+/* .icon-user{
   font-size: 2.5rem;
-}
+} */
 
 /* End of menu */
 
 
 /* accordion */
-.side-menu-accordion-body{
+ .side-menu-accordion-body{
   width: 100%;
   margin-top: 1.5rem;
-}
-.accordion {
+} 
+ .accordion {
     margin: auto;
    width: 100%;
 }
 .accordion input {
   display: none;
-}
+} 
 .box {
   position: relative;
   height: 64px;
@@ -76,12 +74,13 @@
   height: auto;
   padding: 6rem 3rem;
   font-size: 11pt;
-  color: #666;
+  color: white;
   display: none;
   transition: all .5s;
 }
 .box-content-container{
-  background: var(--blue-color);
+  color: white;
+  background: linear-gradient(-10deg,#0032a0 0%,#0078c8 100%);
 }
 .box-content:hover{
   opacity: 1;

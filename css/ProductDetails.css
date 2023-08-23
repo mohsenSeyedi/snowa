@@ -614,3 +614,12 @@ hr{
     width: 100%;
 }
 /* End of section-inbox */
+
+
+/* actived */
+#box-search-bar.active{
+    top: 8rem;
+ }
+ #header-container-nav.active{
+    right: 0;
+ }

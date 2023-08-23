@@ -6,20 +6,19 @@
     <title>جزئیات محصول</title>
     <link rel="stylesheet" href="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_css_all.min.css">
     <link rel="stylesheet" href="./dist/output.css">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/ProductDetails.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
       <!-- header -->
-      <header class="header">
+      <header class="w-full h-32">
         <div class="color-bar"></div>
-        <div class="header__wrap">
+        <div class="bg-white-color flex justify-between items-center p-5">
             <div class="header-logo">
-                <img src="images/logo/logo-type.svg" alt="" class="logo-img">
+                <img class="w-60 h-20" src="images/logo/logo-type.svg" alt="snowa">
             </div>
-            <div class="header-container-nav">
+             <div class="fixed bg-white-color w-29 h-90vh right-(-100) top-32 z-1000 shadow-cart-container transition-all duration-300 overflow-y-auto" id="header-container-nav">
                 <div class="side-menu-accordion-body">
                     <nav class="accordion arrows">
                
@@ -67,29 +66,29 @@
                     
                         <input type="radio" name="accordion" id="acc-close" />
                       </nav>
-                      <div class="header-info">
-                        <button class="profile-menu-btn">
+                      <div class="flex items-center justify-end border-t border-solid border-[#d2d2d2] mt-48">
+                        <button class="my-8 mx-4 border-none">
                             <a href="login.html">
-                                <i class="fa-regular fa-user icon-user"></i>
+                                <i class="fa-regular fa-user text-4xl"></i>
                             </a>
                         </button>
                        </div> 
                 </div>
             </div>
-            <div class="header-btns">
-                <div class="header-sreach">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="header-btns flex items-center">
+                <div class="header-sreach ml-6 mr-4 mt-4">
+                    <i class="fa-solid fa-magnifying-glass mt-4 text-primery-color" style="font-size: 2rem;"></i>
                 </div>
-                <div class="header-nav-btn">
-                    <i class="fa-solid fa-bars opening-nav"></i>
-                    <i class="fa-solid fa-xmark close-nav"></i>
+                <div class="header-nav-btn ml-6 mr-4 relative left-4 -top-4">
+                    <i class="fa-solid fa-bars opening-nav absolute btn-menu"></i>
+                    <i class="fa-solid fa-xmark close-nav absolute btn-menu invisible"></i>
                 </div>
             </div>
         </div>
-        <div class="box-search-bar">
-            <input type="text" placeholder="به دنبال چی میگردید ؟!" class="box-search-input"> 
-            <small>نمایش نتایج از</small>
-            <span>بخش محصولات</span>
+        <div class="flex flex-col absolute -top-80 w-full h-60 bg-white-color z-999 transition-all duration-500 shadow-search" id="box-search-bar">
+            <input class="border-none text-4xl font-body px-8 py-8 placeholder:text-[#ababab]" type="text" placeholder="به دنبال چی میگردید ؟!" id="box-search-input"> 
+            <small class="text-2xl pr-8 text-[#ababab]">نمایش نتایج از</small>
+            <span class="text-primery-color text-2xl pt-4 pr-8 pl-0 pb-0">بخش محصولات</span>
         </div>
     </header>
     <!-- End of header -->
