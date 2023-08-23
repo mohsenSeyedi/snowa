@@ -30,12 +30,15 @@ module.exports = {
       width: {
         '150': '150rem',
         '45': '45rem',
+        '48': '48rem',
         '.8': '.8rem',
         '29': '29rem',
       },
       height: {
+        '170vh': '170vh',
         '90vh': '90vh',
         '.8': '.8rem',
+        '27': '27rem',
       },
       spacing: {
         '(-100)': '-100rem',
