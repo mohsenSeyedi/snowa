@@ -25,26 +25,6 @@ body{
 .container-fluid.active::after{
     visibility: visible;
 }
-
-/* list-filters */
-/* .list-filters{
-    width: 100%;
-    height: 11rem;
-    background-color: var(--white-color);
-    margin-top: 2rem;
-} */
-/* .list-filters__container{
-    width: 100%;
-    height: 6rem;
-} */
-/* .list-filters__container-products{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 3rem;
-} */
 .list-filters-product-text{
     font-size: 1.5rem;
     padding: .7rem 1.5rem;
@@ -60,59 +40,13 @@ body{
     color: #fff;
 }
 
-/* .filter-icon__container{
-    width: 100%;
-    height: 100%;
-    padding: 1rem 4rem 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-/* .filter-icon-btn{
-    border: none;
-    background-color: var(--white-color);
-    font-family: var(--primery-font);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-} */
-/* .filter-icon-btn svg{
-    width: 3rem;
-    height: 3rem;
-} */
-/* .filter-icon-text{
-    font-size: 1.4rem;
-} */
-/* .filter-icon-angle{
-    border: none;
-    background-color: var(--white-color);
-    font-family: var(--primery-font);
-    margin-left: 2rem;
-    opacity: .6;
-    cursor: pointer;
-} */
-
 /* End of list-filters */
 
 /* products-container */
-.products-container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-.cards-products__container{
-    width: 95%;
-    height: auto;
-    padding-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3 , 30rem);
-    column-gap: 2rem;
-}
 .card-product{
     width: 30rem;
     height: 55rem;
-    background-color: var(--white-color);
+    background-color: #fff;
     border-radius: .3rem;
     margin-bottom: 3rem;
 }
@@ -179,8 +113,8 @@ body{
     justify-content: center;
 }
 .card-product__btn-link{
-    background: var(--blue-color);
-    color: var(--white-color);
+    background: linear-gradient(45deg, #0078c8 0%, #0032a0 100%);;
+    color: #fff;
     width: 90%;
     display: block;
     text-align: center;
