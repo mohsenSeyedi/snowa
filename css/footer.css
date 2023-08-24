@@ -1,20 +1,8 @@
 @import "./default-style.css";
 
-
-/* .footer{
-    width: 100%;
-    position: relative;
-    padding-top: 1rem;
-} */
 .footer div{
    margin-top: 3rem;
 }
-/* .footer-icons-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-} */
 .footer-icon{
     display: flex;
     flex-direction: column;
