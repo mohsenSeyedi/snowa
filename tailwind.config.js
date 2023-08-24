@@ -21,7 +21,8 @@ module.exports = {
         'search': '0 -4px 7px rgba(0,0,0,0.07)',
         'cart-container' : '0 1px 7px rgba(0,0,0,0.1)',
         'cart-header' : '0 0.3125rem 0.625rem 0 rgba(0,0,0,0.05)',
-        'intro-content' : ' 0 0.0625rem 0.125rem rgba(0,0,0,0.02)'
+        'intro-content' : ' 0 0.0625rem 0.125rem rgba(0,0,0,0.02)',
+        'intro-introduction' : '0 0.0625rem 0.125rem rgba(0,0,0,0.02)'
       },
       zIndex: {
         '999': '999',
@@ -33,10 +34,15 @@ module.exports = {
         '48': '48rem',
         '.8': '.8rem',
         '29': '29rem',
+        '97%': '97%',
         '95%': '95%',
+        '65%': '65%',
+        '45%': '45%',
+        '30%': '30%',
       },
       height: {
         '170vh': '170vh',
+        '120vh': '120vh',
         '90vh': '90vh',
         '.8': '.8rem',
         '27': '27rem',
@@ -49,9 +55,14 @@ module.exports = {
         '35': '35rem',
         '25': '25rem',
         '27.5': '27.5rem',
+        '28.5': '28.5rem',
+        '18.5': '18.5rem',
         '25': '25rem',
         '70': '70rem',
         '40%': '40%',
+      },
+      brightness: {
+        5.5: '5.5'
       }
     },
   },
