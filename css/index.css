@@ -3,7 +3,6 @@
 @import "./side-menu.css";
 
 
-
 /* banner */
 .banner-container{
    position: relative;
@@ -101,25 +100,6 @@
     margin-top: 3rem ;
     text-align: justify;
  }
- .card-left-imgs-rtl img {
-    border-radius: .3rem;
- }
- .big-img-card {
-    width: 47rem;
- }
- .big-img-card img{
-   width: 100%;
- }
- .small-imgs-card{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 47rem;
-    margin-top: 2rem;
- }
- .small-imgs-card img{
-    width: 48%;
- }
  .card-btn a{
     background: linear-gradient(45deg, #0078c8 0%, #0032a0 100%);
     padding: 1.8rem 1.5rem;
@@ -129,12 +109,6 @@
  }
  
  /* ltr */
- .card-right-imgs-ltr{
-    margin-left: 4rem;
- }
- .card-right-imgs-ltr img{
-    border-radius: .3rem;
- }
  .card-left-text-ltr{
     width: 47rem;
     display: flex;
