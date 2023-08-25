@@ -32,11 +32,11 @@ body{
     transition: all .2s;
 }
 .list-filters-product-text.active{
-    background-color: #2191db ;
+    background: linear-gradient(30deg,#00bee6 0%,#0078c8 100%);
     color: #fff;
 }
 .list-filters-product-text:hover{
-    background-color: #2191db ;
+    background: linear-gradient(30deg,#00bee6 0%,#0078c8 100%);
     color: #fff;
 }
 
@@ -113,7 +113,7 @@ body{
     justify-content: center;
 }
 .card-product__btn-link{
-    background: linear-gradient(45deg, #0078c8 0%, #0032a0 100%);;
+    background: linear-gradient(45deg, #0078c8 0%, #0032a0 100%);
     color: #fff;
     width: 90%;
     display: block;

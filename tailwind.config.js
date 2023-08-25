@@ -15,6 +15,7 @@ module.exports = {
       backgroundImage :{
         "blue-color" : "linear-gradient(45deg, #0078c8 0%, #0032a0 100%);",
         "blue-green" : "linear-gradient(-90deg, #0078c8 0%, #78be1e 100%);",
+        "blue-gray" : "linear-gradient(45deg,#0032a0 0%,#5c676d 100%);"
       },
       boxShadow: {
         'bar': '-72vw 0 0 8px #78be1e, -65vw 0 0 8px #019e43, -58vw 0 0 8px #0182c6, 0vw 0 0 8px #1d4f9b;',
@@ -31,11 +32,14 @@ module.exports = {
       width: {
         '150': '150rem',
         '45': '45rem',
+        '17': '17rem',
+        '46': '46rem',
         '48': '48rem',
         '.8': '.8rem',
         '29': '29rem',
         '97%': '97%',
         '95%': '95%',
+        '80%': '80%',
         '65%': '65%',
         '45%': '45%',
         '30%': '30%',
@@ -48,6 +52,7 @@ module.exports = {
         '60vh': '60vh',
         '.8': '.8rem',
         '27': '27rem',
+        '85%': '85%',
         '90%': '90%',
         '660': '660px',
       },
