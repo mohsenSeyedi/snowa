@@ -72,7 +72,16 @@ module.exports = {
       },
       brightness: {
         5.5: '5.5'
-      }
+      },
+      screens: {
+        'vs': {'min': '280px', 'max': '350px'},
+        'sm': {'min': '351px', 'max': '576px'},
+        '2sm': {'min': '577px', 'max': '767px'},
+        'md': {'min': '768px', 'max': '1023px'},
+        'lg': {'min': '1024px', 'max': '1279px'},
+        'xl': {'min': '1280px', 'max': '1535px'},
+        '2xl': {'min': '1536px'}
+      },
     },
   },
   plugins: [],
