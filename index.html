@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="lg:text-60%">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -104,7 +104,7 @@
                       <a class="absolute top-35 right-8 bg-white-color py-6 px-4 rounded-lg text-black" href="#">بیشتر بدانید</a>
                    </div>
             </div>
-            <div class="banner-icons-wrapper flex items-center relative">
+            <div class="flex items-center relative lg:hidden lg:invisible" id="banner-icons-wrapper">
                 <div class="banner-icon">
                     <a href="#card-4">
                     <img src="images/banner/banner-icon/1.svg" alt="" class="w-28 h-28">
@@ -146,9 +146,9 @@
         <!-- End of banner-container -->
 
         <!-- card-1 -->
-        <div class="card-1 card card-rtl" id="card-1">
-            <div class="card-1-container container-card">
-                <div class="card-right-text-rtl">
+        <div class="card card-rtl lg:mb-40 lg:pt-12" id="card-1">
+            <div class="flex p-4 lg:flex-col" id="card-1-container">
+                <div class="card-right-text-rtl lg:w-full">
                     <div class="card-header">
                         <h2>یخچال و فریزر</h2>
                         <p>وقتی همه‌چی تازگی داره</p>
@@ -161,7 +161,7 @@
                         <a href="#"> مشاهده همه یخچال و فریزرها </a>
                     </div>
                 </div>
-                <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8" id="card-left-imgs-rtl">
+                <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8 lg:w-full lg:mt-10" id="card-left-imgs-rtl">
                     <div class="col-span-2 row-span-1">
                         <img class="rounded-md" src="images/card/Sn.wb_im_hm__ref.01-600x317.jpg" alt="">
                     </div>
@@ -177,9 +177,9 @@
         <!-- End of card-1 -->
 
         <!-- card-2 -->
-        <div class="card-2 card card-ltr" id="card-2">
-            <div class="card-2-container container-card container-card-ltr">
-                <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8" id="card-left-imgs-ltr">
+        <div class="card card-ltr lg:mb-40" id="card-2">
+            <div class="flex p-4 lg:flex-col-reverse" id="card-2-container">
+                <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8 lg:w-full" id="card-left-imgs-ltr">
                     <div class="col-span-2 row-span-1">
                         <img class="rounded-md" src="images/card/Sn.wb_im_hm__tv.01-600x317.jpg" alt="">
                     </div>
@@ -190,7 +190,7 @@
                         <img class="rounded-md" src="images/card/Sn.wb_im_hm__tv.02.jpg" alt="">
                     </div>
                 </div>
-                <div class="card-left-text-ltr mr-20">
+                <div class="card-left-text-ltr mr-20 lg:mr-0">
                     <div class="card-header">
                         <h2>صوتی و تصویری</h2>
                         <p>وقتی همه‌چی دیدن داره</p>
@@ -209,8 +209,8 @@
         <!-- End of card-2 -->
 
         <!-- card-3 -->
-        <div class="card-3 card card-rtl" id="card-3">
-            <div class="card-3-container container-card">
+        <div class="card card-rtl lg:mb-40 lg:pt-12" id="card-3">
+            <div class="flex p-4 lg:flex-col" id="card-3-container">
                 <div class="card-right-text-rtl">
                     <div class="card-header">
                         <h2>اجاق گاز</h2>
@@ -224,7 +224,7 @@
                         <a href="#">مشاهده همه اجاق گاز‌ها</a>
                     </div>
                 </div>
-                <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8" id="card-left-imgs-rtl">
+                <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8 lg:w-full lg:mt-10" id="card-left-imgs-rtl">
                     <div class="col-span-2 row-span-1">
                         <img class="rounded-md" src="images/card/Sn.wb_im_hm__gc.jpg" alt="">
                     </div>
@@ -240,8 +240,8 @@
       <!-- End of card-3 -->
 
       <!-- card-video -->
-      <div class="card bg-blue-green">
-        <div class="card-video flex flex-col items-center ml-40">
+      <div class="w-full h-screen flex items-center justify-center bg-blue-green lg:mb-40">
+        <div class="w-1/2 flex flex-col items-center ml-40 lg:w-50%" id="card-video">
             <h3 class="text-white-color text-4xl font-semibold mb-20">حداکثر ۲۰ دقیقه فاصله!</h3>
             <p class="card-video-text w-4/5 text-white-color text-justify leading-10 text-2xl">
                 اسنوا با مجموعه‌ای بزرگ نزدیک به ۱۵۰۰ فروشگاه ریتیل و فرانچایز در سراسر کشور موقعیتی برای شهروندان ایرانی فراهم نموده تا بتوانند در کمتر از ۲۰ دقیقه به نزدیکترین فروشگاه اسنوا دسترسی داشته باشند.
@@ -252,16 +252,16 @@
             </p>
             <a class="text-primery-color bg-white-color text-3xl rounded-md text-center mt-32 py-5 px-16" href="#">لیست فروشگاهها</a>
         </div>
-        <div class="card-video-img w-150 h-full">
+        <div class="w-1/2 h-full lg:w-50%">
             <img class="w-full h-full object-cover opacity-60" src="images/card/Shop-Photo-min-900x528.jpg" alt="shopping">
         </div>
       </div>
       <!-- End of card-video -->
 
       <!-- card-4 -->
-      <div class="card-4 card card-ltr" id="card-4">
-        <div class="card-4-container container-card container-card-ltr">
-            <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8" id="card-left-imgs-ltr">
+      <div class="card card-ltr lg:mb-40" id="card-4">
+        <div class="flex p-4 lg:flex-col-reverse" id="card-4-container">
+            <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8 lg:w-full" id="card-left-imgs-ltr">
                 <div class="col-span-2 row-span-1">
                     <img class="rounded-md" src="images/card/Sn.wb_im_hm__wm.01-600x317.jpg" alt="">
                 </div>
@@ -272,7 +272,7 @@
                     <img class="rounded-md" src="images/card/Sn.wb_im_hm__wm.02.jpg" alt="">
                 </div>
             </div>
-            <div class="card-left-text-ltr mr-20">
+            <div class="card-left-text-ltr mr-20 lg:mr-0">
                 <div class="card-header">
                     <h2>ماشین لباسشویی</h2>
                     <p>وقتی همه‌چی دیدن داره</p>
@@ -292,8 +292,8 @@
       <!-- End of card-4 -->
 
       <!-- card-5 -->
-      <div class="card-5 card card-rtl" id="card-5">
-        <div class="card-5-container container-card">
+      <div class="card-5 card card-rtl lg:mb-40 lg:pt-12" id="card-5">
+        <div class="flex p-4 lg:flex-col" id="card-5-container">
             <div class="card-right-text-rtl">
                 <div class="card-header">
                     <h2>ماشین ظرف‌شویی</h2>
@@ -306,7 +306,7 @@
                     <a href="#">مشاهده همه ماشین ظرفشویی ها</a>
                 </div>
             </div>
-            <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8" id="card-left-imgs-rtl">
+            <div class="w-1/2 grid grid-cols-2 grid-rows-2 gap-x-8 gap-y-8 lg:w-full lg:mt-10" id="card-left-imgs-rtl">
                 <div class="col-span-2 row-span-1">
                     <img class="rounded-md" src="images/card/Sn.wb_im_hm__dw.01-600x317.jpg" alt="">
                 </div>
@@ -322,19 +322,19 @@
       <!-- End of card-5 -->
 
       <!-- Section-readable -->
-      <div class="section-readable w-full h-170vh flex flex-col justify-center items-center">
+      <div class="section-readable w-full h-auto flex flex-col justify-center items-center">
         <div class="flex flex-col items-center justify-center mt-32 text-primery-color">
             <h3 class="text-4xl mb-12 font-bold">به سبک خودت زندگی کن!</h3>
             <p class="text-3xl">مطالب به روز و خواندنی در مورد هر آنچه که با آن زندگی می‌کنید</p>
         </div>
-        <div class="mt-28">
-            <div class="section-readable-body-container grid grid-cols-2 gap-x-8 gap-y-8">
-                <div class="section-readable-blog">
+        <div class="mt-28 lg:flex lg:justify-center lg:container lg:mx-auto">
+            <div class="section-readable-body-container grid grid-cols-2 gap-x-8 gap-y-8 lg:grid-cols-1 lg:w-11/12">
+                <div class="section-readable-blog lg:h-30">
                     <a href="#" class="blog-post">
                         <div class="blog-post-img">
-                            <img src="images/blogs/stain-removal-1-600x400.jpg" alt="">
+                            <img  src="images/blogs/stain-removal-1-600x400.jpg" alt="">
                         </div>
-                        <div class="blog-post-info">
+                        <div class="blog-post-info lg:right-4">
                             <h4 class="blog-post__title"> چطور انواع لکه‌ها را از روی لباس کودکمان پاک کنیم؟ </h4>
                             <span class="blog-post__data">بهمن ۱۴۰۱</span>
                         </div>
@@ -345,12 +345,12 @@
                     </a>
                 </div>
 
-                <div class="section-readable-blog">
+                <div class="section-readable-blog lg:h-30">
                     <a href="#" class="blog-post">
                         <div class="blog-post-img">
                             <img src="images/blogs/blog_ota_update_cover-600x338.jpg" alt="">
                         </div>
-                        <div class="blog-post-info">
+                        <div class="blog-post-info lg:right-4">
                             <h4 class="blog-post__title"> چطور انواع لکه‌ها را از روی لباس کودکمان پاک کنیم؟ </h4>
                             <span class="blog-post__data">بهمن ۱۴۰۱</span>
                         </div>
@@ -361,12 +361,12 @@
                     </a>
                 </div>
 
-                <div class="section-readable-blog">
+                <div class="section-readable-blog lg:h-30">
                     <a href="#" class="blog-post">
                         <div class="blog-post-img">
                             <img src="images/blogs/SteamingForDarkDays_RECIPE_013020_203-1-600x338.jpg" alt="">
                         </div>
-                        <div class="blog-post-info">
+                        <div class="blog-post-info lg:right-4">
                             <h4 class="blog-post__title"> چطور انواع لکه‌ها را از روی لباس کودکمان پاک کنیم؟ </h4>
                             <span class="blog-post__data">بهمن ۱۴۰۱</span>
                         </div>
@@ -377,12 +377,12 @@
                     </a>
                 </div>
 
-                <div class="section-readable-blog">
+                <div class="section-readable-blog lg:h-30">
                     <a href="#" class="blog-post">
                         <div class="blog-post-img">
                             <img src="images/blogs/PP18-DIPLOMA-IN-PROFESSIONAL-CHEF-600x360.jpg" alt="">
                         </div>
-                        <div class="blog-post-info">
+                        <div class="blog-post-info lg:right-4">
                             <h4 class="blog-post__title"> چطور انواع لکه‌ها را از روی لباس کودکمان پاک کنیم؟ </h4>
                             <span class="blog-post__data">بهمن ۱۴۰۱</span>
                         </div>
@@ -393,12 +393,12 @@
                     </a>
                 </div>
 
-                <div class="section-readable-blog">
+                <div class="section-readable-blog lg:h-30">
                     <a href="#" class="blog-post">
                         <div class="blog-post-img">
-                            <img src="images/blogs/سیر-تاریخی-تلویزیون.jpg" alt="">
+                            <img  src="images/blogs/سیر-تاریخی-تلویزیون.jpg" alt="">
                         </div>
-                        <div class="blog-post-info">
+                        <div class="blog-post-info lg:right-4">
                             <h4 class="blog-post__title"> چطور انواع لکه‌ها را از روی لباس کودکمان پاک کنیم؟ </h4>
                             <span class="blog-post__data">بهمن ۱۴۰۱</span>
                         </div>
@@ -409,12 +409,12 @@
                     </a>
                 </div>
 
-                <div class="section-readable-blog">
+                <div class="section-readable-blog lg:h-30">
                     <a href="#" class="blog-post">
                         <div class="blog-post-img">
                             <img src="images/blogs/نکاتی-برای-جابجایی-یخچال-برای-اسباب-کشی-600x400.jpg" alt="">
                         </div>
-                        <div class="blog-post-info">
+                        <div class="blog-post-info lg:right-4">
                             <h4 class="blog-post__title"> چطور انواع لکه‌ها را از روی لباس کودکمان پاک کنیم؟ </h4>
                             <span class="blog-post__data">بهمن ۱۴۰۱</span>
                         </div>
@@ -434,7 +434,7 @@
       <footer class="footer w-full relative pt-8">
         <div class="color-bar mt-10"></div>
         <div class="footer-wrap mt-8 pb-8">
-            <div class="footer-icons-wrapper flex items-center justify-center mt-12">
+            <div class="footer-icons-wrapper flex items-center justify-center mt-12 lg:flex-wrap">
                 <div class="footer-icon">
                     <img src="images/banner/banner-icon/2.svg" alt="" class="banner-icon-img">
                     <a href="#">
@@ -500,14 +500,14 @@
             </div>
         </div>
         <div class="h-1 rounded-md bg-[#E6E6E6] mb-14"></div>
-        <div class="flex flex-col justify-center pr-4 mb-28">
+        <div class="flex flex-col justify-center pr-4 mb-28 lg:items-center">
             <img src="images/logo/logo-type.svg" alt="" class="w-60 h-20 mr-8">
-            <div class="flex border-y-2 border-solid border-[#cccccc] justify-between w-2/12 py-4">
-                <a href="#"><img src="images/social-icon/telegram.svg" alt="" class="footer-social-icon-img"></a>
-                <a href="#"><img src="images/social-icon/instagram.svg" alt="" class="footer-social-icon-img"></a>
-                <a href="#"><img src="images/social-icon/aparat-1-150x150.png" alt="" class="footer-social-icon-img"></a>
-                <a href="#"><img src="images/social-icon/linkedin.svg" alt="" class="footer-social-icon-img"></a>
-                <a href="#"><img src="images/social-icon/twitter.svg" alt="" class="footer-social-icon-img"></a>
+            <div class="flex border-y-2 border-solid border-[#cccccc] justify-between w-3/12 py-6">
+                <a href="#"><img src="images/social-icon/telegram.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/instagram.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/aparat-1-150x150.png" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/linkedin.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/twitter.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
             </div>
             <p class="text-blue-900 text-2xl font-bold mt-5">اسنـوا را در شبکه‌های اجتماعی دنبال کنید</p>
         </div>
