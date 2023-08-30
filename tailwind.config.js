@@ -76,6 +76,7 @@ module.exports = {
         '25': '25rem',
         '70': '70rem',
         '40%': '40%',
+        '90vh': '90vh'
       },
       brightness: {
         5.5: '5.5'

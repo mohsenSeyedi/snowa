@@ -8,7 +8,6 @@ body{
 
 .container-fluid{
     width: 100%;
-    height: 100vh;
     position: relative;
 }
 .container-fluid::after{
@@ -124,9 +123,6 @@ body{
 .card-product-buy{
     margin-top: 3rem;
     font-size: 1.2rem;
-}
-.footer{
-    margin-top: 45em;
 }
 .banner-icon-img{
     width: 7rem;
