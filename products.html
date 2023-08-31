@@ -10,6 +10,7 @@
 </head>
 <body>
 
+
    <!-- header -->
    <header class="w-full h-32">
     <div class="color-bar"></div>
@@ -109,9 +110,9 @@
    <!-- container-fluid  -->
    <div class="container-fluid page-container h-auto">
     <!-- list-filters -->
-    <div class="w-full h-44 bg-white-color mt8">
-        <div class="w-full h-24">
-            <div class="w-full h-full flex items-center justify-around py-0 px-12 lg:grid lg:grid-cols-4 lg:gap-y-10">
+    <div class="w-full h-44 bg-white-color mt8 md:h-96 smd:h-60vh">
+        <div class="w-full h-24 md:flex md:flex-col md:h-2/3">
+            <div class="w-full h-full flex items-center justify-around py-0 px-12 lg:grid lg:grid-cols-4 lg:gap-y-10 smd:grid-cols-2">
                 <div class="list-filters-product lg:py-4">
                     <a class="list-filters-product-text active" href="#" class="active">تلویزیون</a>
                 </div>
@@ -124,17 +125,17 @@
                 <div class="list-filters-product lg:py-4">
                     <a class="list-filters-product-text" href="#">یخچال و فریزر</a>
                 </div>
-                <div class="list-filters-product lg:py-4 lg:col-start-2">
+                <div class="list-filters-product lg:py-4 lg:col-start-2 smd:col-start-1">
                     <a class="list-filters-product-text" href="#">ماشین ظرفشویی</a>
                 </div>
-                <div class="list-filters-product lg:py-4">
-                    <a class="list-filters-product-text" href="#"> لوازم خانگی کوچک</a>
+                <div class="list-filters-product lg:py-4 ">
+                    <a class="list-filters-product-text" href="#"> لوازم خانگی </a>
                 </div>
-                <div class="list-filters-product lg:py-4">
+                <div class="list-filters-product lg:py-4 smd:col-span-2">
                     <a class="list-filters-product-text" href="#">محصولات توکار</a>
                 </div>
             </div>
-            <div class="w-full h-full pt-4 pr-16 pb-4 pl-0 flex items-center justify-between">
+            <div class="w-full h-full pt-4 pr-16 pb-4 pl-0 flex items-center justify-between md:self-end smd:mt-10">
                 <button class="border-none bg-white-color font-body cursor-pointer flex items-center">
                     <svg class="icon w-12 h-12" xmlns="http://www.w3.org/2000/svg" id="filter" viewBox="0 0 30 28.8">
                         <linearGradient id="filter-a" gradientUnits="userSpaceOnUse" x1="-19.334" y1="40.882" x2="-18.537" y2="41.189" gradientTransform="matrix(13.1001 0 0 -8.407 262.533 356.844)">
@@ -155,7 +156,7 @@
      <!-- End of list-filters -->
 
      <div class="w-full h-auto flex justify-center">
-        <div class="cards-products__container w-95% h-auto pt-16 grid grid-cols-3 gap-x-8 lg:grid-cols-2">
+        <div class="cards-products__container w-95% h-auto pt-16 grid grid-cols-3 gap-x-8 lg:grid-cols-2 md:flex md:flex-col md:items-center">
             <div class="card-product">
                 <div class="card-product__content">
                     <div class="card-product-contaent__img">

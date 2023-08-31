@@ -56,6 +56,8 @@ module.exports = {
         '150vh': '150vh',
         '90vh': '90vh',
         '60vh': '60vh',
+        '70vh': '70vh',
+        '80vh': '80vh',
         '.8': '.8rem',
         '27': '27rem',
         '30': '30rem',
@@ -90,6 +92,7 @@ module.exports = {
         'xl': {'max': '1279px'},
         'lg': {'max': '980px'},
         'md': {'max': '767px'},
+        'smd': {'max': '600px'},
         'sm': {'max': '550px'},
         'vs': {'max': '350px'}
       }
