@@ -130,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="banner-icon banner-icon-4 w-60 h-60 text-center text-white-color bg-blue-color -ml-10">
+            <div class="banner-icon banner-icon-4 w-60 h-60 text-center text-white-color bg-blue-color -ml-10 lg:invisible">
                 <a href="#">
                 <img src="images/productDetails/banner-icon/shop-first.svg" alt="" class="banner-icon-img">
                 <p class="banner-icon-title h-auto text-white-color text-xl">فروشگاه ها</p>
@@ -141,14 +141,14 @@
     <!-- End of banner-container -->
 
     <!-- gallery -->
-    <div class="mt-40 relative flex flex-col" id="gallery-container">
+    <div class="mt-40 relative flex flex-col lg:mb-10" id="gallery-container">
          <div class="mb-40" id="intro-gallery">
             <h2 class="intro-introduction right-8">کشف دنیای رنگارنگ</h2>
             <p  class="sub-intro-introduction right-8 top-24">نمایش یک میلیارد رنگ با فناوری برتر کوانتوم‌دات</p>
          </div>
         <div class="container mt-20">
-            <div class="grid grid-cols-3 grid-rows-3 gap-x-6 gap-y-6 p-6" id="gallery-container-imgs__top" style="direction: ltr;">
-                <div class="col-span-1 row-span-1 relative" id="img-gallery">
+            <div class="grid grid-cols-3 grid-rows-3 gap-x-6 gap-y-6 p-6 lg:grid-cols-1" id="gallery-container-imgs__top" style="direction: ltr;">
+                <div class="col-span-1 row-span-1 relative lg:col-span-full" id="img-gallery">
                     <img class="rounded-lg" src="/images/productDetails/gallery/2-Masonry-grid-17-900x900.jpg" alt="عکس 1">
                     <div class="gallery-feature">
                         <i class="fa-solid fa-plus"></i>
@@ -160,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="col-span-1 row-span-1 relative" id="img-gallery">
+                <div class="col-span-1 row-span-1 relative lg:col-span-full" id="img-gallery">
                     <img class="rounded-lg"  src="images/productDetails/gallery/3-Masonry-grid-5-900x900.jpg" alt="عکس 2">
                     <div class="gallery-feature">
                         <i class="fa-solid fa-plus"></i>
@@ -172,8 +172,8 @@
                     </div>
                 </div>
 
-                <div class="col-span-1 row-span-2 relative" id="img-gallery">
-                    <img class="h-660 rounded-lg" src="images/productDetails/gallery/4-Masonry-grid-copy-1-490x999.jpg" alt="عکس 3">
+                <div class="col-span-1 row-span-2 relative lg:col-span-full lg:w-full lg:h-full" id="img-gallery">
+                    <img class="h-660 rounded-lg lg:w-full lg:h-753" src="images/productDetails/gallery/4-Masonry-grid-copy-1-490x999.jpg" alt="عکس 3">
                     <div class="gallery-feature">
                         <i class="fa-solid fa-plus"></i>
                     </div>
@@ -184,7 +184,7 @@
                     </div>
                 </div>
 
-                <div class="col-span-2 row-span-1 relative -pb-4" id="img-gallery">
+                <div class="col-span-2 row-span-1 relative -pb-4 lg:col-span-full" id="img-gallery">
                     <img class="rounded-lg" src="images/productDetails/gallery/5-Masonry-grid-17-900x450.jpg" alt="عکس 4">
                     <div class="gallery-feature">
                         <i class="fa-solid fa-plus"></i>
@@ -196,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="col-span-full row-span-1 relative" id="img-gallery">
+                <div class="col-span-full row-span-1 relative lg:col-span-full" id="img-gallery">
                     <img class="rounded-lg w-full" class="w-full" src="images/productDetails/gallery/6-Masonry-grid-11-900x296.jpg" alt="عکس 5">
                     <div class="gallery-feature">
                         <i class="fa-solid fa-plus"></i>
@@ -213,7 +213,7 @@
     <!-- End of gallery -->
 
     <!-- section-feature  -->
-    <div class="w-full h-screen flex justify-center items-center bg-white-color" id="section-feature">
+    <div class="w-full h-auto flex justify-center items-center bg-white-color" id="section-feature">
         <div class="w-97% flex items-center justify-between" id="section-feature-content">
             <div class="w-45% relative" id="section-feature-rigth">
                 <div class="intro-feature">
@@ -257,7 +257,7 @@
                 <p  class="sub-intro-introduction right-0 top-24" id="sub-intro-introduction">اگه می‌خوای در زمان کوتاه، ویژگی‌ها رو مرور کنی.</p>
              </div>
              <div class="w-11/12 mx-auto" id="section-review-product-icons">
-                <ul class="grid grid-cols-3 mt-64" id="section-review-product-icons-content">
+                <ul class="grid grid-cols-3 mt-64 lg:grid-cols-2" id="section-review-product-icons-content">
                     <li class="section-review-product-icon">
                         <div>
                             <img src="images/productDetails/banner-icon/65-p-tv-smart-tv-1.svg" alt="">
@@ -323,8 +323,8 @@
 
     <!-- section-darkness -->
     <div class="w-full h-120vh mt-20 flex items-center justify-center" id="section-darkness" style="background: url(/images/productDetails/10-Night-19.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
-        <div class="w-6/12 h-90vh" id="section-darkness-rigth"></div>
-        <div class="w-6/12 h-90vh flex flex-col items-center relative" id="section-darkness-left">
+        <div class="w-6/12 h-90vh lg:hidden" id="section-darkness-rigth"></div>
+        <div class="w-6/12 h-90vh flex flex-col items-center relative lg:w-10/12" id="section-darkness-left">
             <div class="self-start" id="intro-darkness">
                 <h2 class="bg-blue-green text-white-color font-bold py-6 px-10 text-4xl rounded-lg" id="intro-introduction">بالاتر از سیاهی</h2>
                 <p  class="bg-white-color text-2xl p-6 rounded-lg text-[#373737] opacity-90" id="sub-intro-introduction">هر رنگی جای خودش را داره</p>
@@ -349,13 +349,13 @@
 
     <!-- section-inbox -->
     <div class="w-full" id="section-inbox">
-        <div class="w-full h-screen flex items-center justify-between  bg-[#373737] mt-20" id="section-inbox-content">
-            <div class="w-30%" id="inbox-side">
+        <div class="w-full h-screen flex items-center justify-between  bg-[#373737] mt-20 lg:flex-col-reverse" id="section-inbox-content">
+            <div class="w-30% lg:w-10/12 lg:pb-10" id="inbox-side">
                 <div class="intro-inbox">
                     <h2 class="bg-blue-green text-white-color font-bold py-6 px-10 w-72 mr-8 text-4xl rounded-lg" id="intro-introduction">اقلام در جعبه</h2>
                     <p  class="bg-white-color text-2xl p-6 rounded-lg w-32 mr-8 text-[#373737] opacity-90" id="sub-intro-introduction">In Box</p>
                 </div>
-                <ul class="section-inbox-content-icons">
+                <ul class="section-inbox-content-icons lg:grid lg:grid-cols-2">
                     <li class="flex mt-12 mr-8" id="section-inbox-content-icon">
                         <img class="cart-icon" src="images/productDetails/banner-icon/48-p-tv-TV-stand-1.svg" alt="">
                         <div class="mr-8" id="section-inbox-content-icon-text">
@@ -394,9 +394,9 @@
     <!-- End of section-inbox -->
 
     <!-- section-agency -->
-    <div class="w-full h-60vh flex" id="agency">
-        <div class="w-1/2 h-full bg-blue-color flex justify-center items-center">
-            <div class="flex items-center w-full h-3/5">
+    <div class="w-full h-60vh flex lg:flex-col lg:h-screen" id="agency">
+        <div class="w-1/2 h-full bg-blue-color flex justify-center items-center lg:w-full lg:h-1/2">
+            <div class="flex items-center w-full h-3/5 lg:justify-center">
                 <img class="w-44 h-48 mr-8 pt-8 opacity-40 self-start" src="images/productDetails/banner-icon/agencies.svg" alt="">
                 <div class="flex flex-col w-3/5 mr-14 h-full">
                     <h3 class="text-white-color mt-8 font-bold text-3xl">لیست فروشگاه‌ها</h3>
@@ -405,8 +405,8 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/2 h-full bg-blue-color flex justify-center items-center">
-            <div class="flex items-center w-full h-3/5">
+        <div class="w-1/2 h-full bg-blue-color flex justify-center items-center lg:w-full lg:h-1/2">
+            <div class="flex items-center w-full h-3/5 lg:justify-center">
                 <img class="w-44 h-52 mr-8 pt-8 opacity-40 self-start" src="images/productDetails/banner-icon/sla.svg" alt="">
                 <div class="flex flex-col w-3/5 mr-14 h-full">
                     <h3 class="text-white-color mt-8 font-bold text-3xl">خدمات پس از خرید</h3>
