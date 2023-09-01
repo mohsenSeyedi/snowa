@@ -21,7 +21,7 @@
         @apply text-xl text-primery-color text-center pt-4
     }
     .intro-introduction {
-       @apply absolute bg-blue-green text-white-color font-bold py-8 px-14 text-4xl rounded-lg shadow-intro-introduction
+       @apply absolute bg-blue-green text-white-color font-bold py-8 px-14 text-4xl rounded-lg shadow-intro-introduction sm:px-10 sm:py-4 sm:text-2xl
     }
     .sub-intro-introduction {
        @apply absolute bg-white-color text-2xl py-6 px-5 rounded-lg text-[#373737] opacity-90
