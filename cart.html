@@ -106,7 +106,116 @@
     </header>
     <!-- End of header -->
 
-    <div class="container-cart page-container h-auto"></div>
+    <!-- section-cart-container -->
+    <div class="container-cart page-container h-auto">
+      <!-- section-cart-table -->
+      <div class="container mx-auto mt-10" id="section-cart-table">
+      <table class="w-11/12 mx-auto border border-gray-300 rounded-sm  md:flex" cellspacing="0">
+          <thead class="md:hidden">
+              <tr class="bg-white-color opacity-90 md:grid md:flex-col">
+                  <th class="py-6 pl-20 w-10" id="product-remove">&nbsp;</th>
+                  <th class="py-6 pl-20 w-3" id="product-thumbnail">&nbsp;</th>
+                  <th class="py-6 pl-20 md:py-[6px]" id="product-name">محصول</th>
+                  <th class="py-6 pl-20 md:py-[6px]" id="product-price">قیمت</th>
+                  <th class="py-6 pl-20 md:py-[6px]" id="product-quantity">تعداد</th>
+                  <th class="py-6 pl-20 md:py-[6px]" id="product-subtotal">جمع</th>
+              </tr>
+          </thead>
+          <tbody class="md:mr-12">   
+              <tr class="cart-item border-b border-gray-300 pb-4 md:grid md:flex-col md:relative">
+                  <td class="md:absolute md:-right-16">
+                      <a href="#" class="text-3xl pr-8 opacity-80 md:absolute  md:text-4xl" aria-label="حذف این آیتم" data-product_id="862" data-product_sku="1000021">×</a>								
+                  </td>
+                  <td class="">
+                      <a href="#"><img class="p-4" width="100" height="100" src="images/card-prodects/35-SSD-65SK15000U_0ysx-8f.jpg" alt="پروتئین وی 100٪ کمپلکس الیمپ"></a>
+                  </td>
+                  <td class="product-name" data-title="محصول">
+                      <a href="#">پروتئین وی 100٪ کمپلکس الیمپ</a>
+                      <ul class="variation">
+                          <li class="variation-">
+                              <span class="opacity-70 text-pale-gray pt-2">فروشنده:</span>
+                              <span class="item-variation-value"></span>
+                          </li>
+                      </ul>
+                  </td>
+                  <td class="product-price" data-title="قیمت">
+                      <span class="text-primery-color text-[15px]"><bdi>3,430,000&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span>								
+                  </td>
+                  <td class="product-quantity" data-title="تعداد">
+                      <div class="flex">
+                          <input type="button" value="-" class="w-[25px] h-[42px] p-2" style="border: 1px solid gray; border-top-right-radius:35px; border-bottom-right-radius:35px">
+                          <input type="number" id="quantity_64febb25a82ee" class="w-[30px] h-[43px] inline-block text-center text-pale-gray outline-none opacity-80" style="border-top: 1px solid gray; border-bottom: 1px solid gray;" step="1" min="1" max="" name="quantity" value="1" title="تعداد" size="4" placeholder="" inputmode="numeric">
+                          <input type="button" value="+" class="w-[25px] h-[42px] p-2" style="border: 1px solid gray; border-top-left-radius:35px; border-bottom-left-radius:35px">
+                      </div>
+                  </td>
+                  <td class="product-subtotal" data-title="جمع جزء">
+                      <span class="text-primery-color font-bold text-3xl"><bdi>3,430,000&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span>								
+                  </td>
+              </tr>
+              <tr class="cart-item border-b border-gray-300 pb-4 md:grid md:flex-col md:relative">
+                  <td class="md:absolute md:-right-16">
+                      <a href="#" class="text-3xl pr-8 opacity-80 md:absolute  md:text-4xl" aria-label="حذف این آیتم" data-product_id="862" data-product_sku="1000021">×</a>								
+                  </td>
+                  <td class="">
+                      <a href="#"><img class="p-4" width="100" height="100" src="images/card-prodects/35-SSD-65SK15000U_0ysx-8f.jpg" alt="پروتئین وی 100٪ کمپلکس الیمپ"></a>
+                  </td>
+                  <td class="product-name" data-title="محصول">
+                      <a href="#">پروتئین وی 100٪ کمپلکس الیمپ</a>
+                      <ul class="variation">
+                          <li class="variation-">
+                              <span class="opacity-70 text-pale-gray pt-2">فروشنده:</span>
+                              <span class="item-variation-value"></span>
+                          </li>
+                      </ul>
+                  </td>
+                  <td class="product-price" data-title="قیمت">
+                      <span class="text-primery-color text-[15px]"><bdi>3,430,000&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span>								
+                  </td>
+                  <td class="product-quantity" data-title="تعداد">
+                      <div class="flex">
+                          <input type="button" value="-" class="w-[25px] h-[42px] p-2" style="border: 1px solid gray; border-top-right-radius:35px; border-bottom-right-radius:35px">
+                          <input type="number" id="quantity_64febb25a82ee" class="w-[30px] h-[43px] inline-block text-center text-pale-gray outline-none opacity-80" style="border-top: 1px solid gray; border-bottom: 1px solid gray;" step="1" min="1" max="" name="quantity" value="1" title="تعداد" size="4" placeholder="" inputmode="numeric">
+                          <input type="button" value="+" class="w-[25px] h-[42px] p-2" style="border: 1px solid gray; border-top-left-radius:35px; border-bottom-left-radius:35px">
+                      </div>
+                  </td>
+                  <td class="product-subtotal" data-title="جمع جزء">
+                      <span class="text-primery-color font-bold text-3xl"><bdi>3,430,000&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span>								
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+      </div>
+      <!-- End of section-cart-table -->
+
+      <!-- section-coupon-product -->
+      <div class="w-full flex items-center mt-4 border-b border-gray-200 py-6" id="coupon">	
+      <div class="flex mr-6 3xl:mr-44 sm:flex-col">
+          <input type="text" name="coupon_code" class="mr-14 outline-none py-2 px-6 bg-[#f4f4f4] rounded-[35px] vs:w-10/12" id="coupon_code" value="" placeholder="کد تخفیف">
+          <button type="submit" class="bg-blue-color text-white-color py-2 px-4 rounded-full transition-all hover:opacity-90 mr-2 sm:mt-2 sm:mr-4 vs:mr-5 vs:w-10/12" name="apply_coupon" value="اعمال کدتخفیف">اعمال کدتخفیف</button> 
+      </div>		          
+      </div>
+      <!-- section-coupon-product -->
+
+      <!-- section-total-cart -->
+      <div class="w-11/12 mx-auto mt-8 mb-4" id="section-total-cart">
+      <h2 class="text-4xl text-navy-blue font-bold">جمع کل سبد خرید</h2>
+      <div class="border border-gray-300 mt-2">
+          <div class="flex items-center justify-between border-b border-gray-300 py-4 px-2">
+              <p class="font-medium">جمع جزء</p>
+              <span class="text-pale-gray">6,510,000 تومان</span>
+          </div>
+          <div class="flex items-center justify-between font-bold py-4 px-2">
+              <p class="font-bold text-3xl">مجموع</p>
+              <span class="text-4xl text-blue-color vs:text-xl">6,510,000 تومان</span>
+          </div>
+      </div>
+      <div class="w-full py-8 flex">
+          <a href="#" class="w-full bg-blue-color text-white-color rounded-[35px] py-2 px-4 text-center transition-all duration-300 hover:bg-blue-color"> ادامه جهت تسویه حساب</a>
+      </div>
+      </div>
+      <!-- End of section-total-cart -->
+    </div>
+    <!-- End of section-cart-container -->
     
 
 

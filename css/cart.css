@@ -3,7 +3,7 @@
 @import "./side-menu.css";
 
 body{
-    background-color: #f7f7f7;
+    background-color: #f4f4f4;
 }
 .container-cart{
     position: relative;
@@ -26,6 +26,15 @@ body{
 }
 .container-cart.active::after{
     visibility: visible;
+}
+.cart-item{
+    border-bottom: 1px solid rgb(206, 201, 201);
+}
+table{
+    border: 1px solid rgb(206, 201, 201);
+}
+#coupon_code{
+    border: 2px solid rgb(206, 201, 201);
 }
 
 /* actived */
