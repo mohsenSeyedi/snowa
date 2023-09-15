@@ -41,6 +41,16 @@ menuBtn.addEventListener("click" , ()=> {
     }
    
   })
+
+document.addEventListener('click', (e) => {
+    if (!menuContainer.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuContainer.classList.remove('active');
+        menuBtn.firstElementChild.style.visibility="visible"
+        menuBtn.lastElementChild.style.visibility="hidden"
+        body.style.overflow= "auto";
+        removeBgDarkBanner()
+    }
+});
   
   // End of menu
 
@@ -65,7 +75,9 @@ searchBtn.addEventListener("click" , () => {
         body.style.overflow= "auto";
         removeBgDarkBanner()
     }
+    
 }) 
+
 // End of serch-box
 
 
