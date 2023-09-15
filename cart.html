@@ -107,7 +107,7 @@
     <!-- End of header -->
 
     <!-- section-cart-container -->
-    <div class="container-cart page-container h-auto">
+    <div class="container-cart page-container">
       <!-- section-cart-table -->
       <div class="container mx-auto mt-10" id="section-cart-table">
       <table class="w-11/12 mx-auto border border-gray-300 rounded-sm  md:flex" cellspacing="0">
@@ -122,36 +122,6 @@
               </tr>
           </thead>
           <tbody class="md:mr-12">   
-              <tr class="cart-item border-b border-gray-300 pb-4 md:grid md:flex-col md:relative">
-                  <td class="md:absolute md:-right-16">
-                      <a href="#" class="text-3xl pr-8 opacity-80 md:absolute  md:text-4xl" aria-label="حذف این آیتم" data-product_id="862" data-product_sku="1000021">×</a>								
-                  </td>
-                  <td class="">
-                      <a href="#"><img class="p-4" width="100" height="100" src="images/card-prodects/35-SSD-65SK15000U_0ysx-8f.jpg" alt="پروتئین وی 100٪ کمپلکس الیمپ"></a>
-                  </td>
-                  <td class="product-name" data-title="محصول">
-                      <a href="#">پروتئین وی 100٪ کمپلکس الیمپ</a>
-                      <ul class="variation">
-                          <li class="variation-">
-                              <span class="opacity-70 text-pale-gray pt-2">فروشنده:</span>
-                              <span class="item-variation-value"></span>
-                          </li>
-                      </ul>
-                  </td>
-                  <td class="product-price" data-title="قیمت">
-                      <span class="text-primery-color text-[15px]"><bdi>3,430,000&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span>								
-                  </td>
-                  <td class="product-quantity" data-title="تعداد">
-                      <div class="flex">
-                          <input type="button" value="-" class="w-[25px] h-[42px] p-2" style="border: 1px solid gray; border-top-right-radius:35px; border-bottom-right-radius:35px">
-                          <input type="number" id="quantity_64febb25a82ee" class="w-[30px] h-[43px] inline-block text-center text-pale-gray outline-none opacity-80" style="border-top: 1px solid gray; border-bottom: 1px solid gray;" step="1" min="1" max="" name="quantity" value="1" title="تعداد" size="4" placeholder="" inputmode="numeric">
-                          <input type="button" value="+" class="w-[25px] h-[42px] p-2" style="border: 1px solid gray; border-top-left-radius:35px; border-bottom-left-radius:35px">
-                      </div>
-                  </td>
-                  <td class="product-subtotal" data-title="جمع جزء">
-                      <span class="text-primery-color font-bold text-3xl"><bdi>3,430,000&nbsp;<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span>								
-                  </td>
-              </tr>
               <tr class="cart-item border-b border-gray-300 pb-4 md:grid md:flex-col md:relative">
                   <td class="md:absolute md:-right-16">
                       <a href="#" class="text-3xl pr-8 opacity-80 md:absolute  md:text-4xl" aria-label="حذف این آیتم" data-product_id="862" data-product_sku="1000021">×</a>								
@@ -197,7 +167,7 @@
       <!-- section-coupon-product -->
 
       <!-- section-total-cart -->
-      <div class="w-11/12 mx-auto mt-8 mb-4" id="section-total-cart">
+      <div class="w-11/12 mx-auto mt-8" id="section-total-cart">
       <h2 class="text-4xl text-navy-blue font-bold">جمع کل سبد خرید</h2>
       <div class="border border-gray-300 mt-2">
           <div class="flex items-center justify-between border-b border-gray-300 py-4 px-2">
@@ -218,6 +188,92 @@
     <!-- End of section-cart-container -->
     
 
+     <!-- footer -->
+     <footer class="footer w-full relative pt-8 mt-10">
+      <div class="color-bar mt-10"></div>
+      <div class="footer-wrap mt-8 pb-8">
+          <div class="footer-icons-wrapper flex items-center justify-center mt-12 lg:flex-wrap sm:grid sm:grid-cols-2">
+              <div class="footer-icon">
+                  <img src="images/banner/banner-icon/2.svg" alt="" class="banner-icon-img">
+                  <a href="#">
+                  <p class="footer-icon-title">تلویزیون</p>
+                  </a>
+                  <div class="product-model">
+                      <a href="#">هوشمند</a>
+                      <a href="#">50 اینچ</a>
+                      <a href="#">55 اینچ</a>
+                      <a href="#">65 اینچ</a>
+                      <a href="#">75 اینچ</a>
+                  </div>
+              </div>
+              <div class="footer-icon">
+                  <img src="images/banner/banner-icon/1.svg" alt="" class="banner-icon-img">
+                  <a href="#">
+                  <p class="footer-icon-title">ماشین لباسشویی</p>
+                  </a>
+                  <div class="product-model">
+                      <a href="#">دیجیتال اینورتر</a>
+                      <a href="#">7 کیلوگرم</a>
+                      <a href="#">8 کیلوگرم</a>
+                      <a href="#">9 کیلوگرم</a>
+                  </div>
+              </div>
+              <div class="footer-icon">
+                  <img src="images/banner/banner-icon/3.svg" alt="" class="banner-icon-img">
+                  <a href="#">
+                  <p class="footer-icon-title">یخچال فریزر</p>
+                  </a>
+                  <div class="product-model">
+                      <a href="#">ساید بای ساید</a>
+                      <a href="#">یخچال فریزر تک درب</a>
+                      <a href="#">فریزر بالا</a>
+                      <a href="#">فریزر پایین</a>
+                  </div>
+              </div>
+              <div class="footer-icon">
+                  <img src="images/banner/banner-icon/4.svg" alt="" class="banner-icon-img">
+                  <a href="#">
+                  <p class="footer-icon-title">اجاق گاز</p>
+                  </a>
+                  <div class="product-model">
+                      <a href="#">سری Chef</a>
+                      <a href="#">سری رومینا</a>
+                      <a href="#">سری آترینا</a>
+                      <a href="#">سری والنتینو</a>
+                      <a href="#">سری آدرینا</a>
+                  </div>
+              </div>
+              <div class="footer-icon">
+                  <img src="images/banner/banner-icon/5.svg" alt="" class="banner-icon-img">
+                  <a href="#">
+                  <p class="footer-icon-title">ماشین ظرفشویی</p>
+                  </a>
+                  <div class="product-model">
+                      <a href="#">14 نفره</a>
+                      <a href="#">12 نفره</a>
+                      <a href="#">10 نفره</a>
+                      <a href="#">8 نفره</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="h-1 rounded-md bg-[#E6E6E6] mb-14"></div>
+      <div class="flex flex-col justify-center pr-4 mb-28 lg:items-center">
+          <img src="images/logo/logo-type.svg" alt="" class="w-60 h-20 mr-8">
+          <div class="flex border-y-2 border-solid border-[#cccccc] justify-between w-3/12 py-6 sm:w-5/12">
+              <a href="#"><img src="images/social-icon/telegram.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+              <a href="#"><img src="images/social-icon/instagram.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+              <a href="#"><img src="images/social-icon/aparat-1-150x150.png" alt="" class="footer-social-icon-img lg:mx-4"></a>
+              <a href="#"><img src="images/social-icon/linkedin.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+              <a href="#"><img src="images/social-icon/twitter.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+          </div>
+          <p class="text-blue-900 text-2xl font-bold mt-5">اسنـوا را در شبکه‌های اجتماعی دنبال کنید</p>
+      </div>
+      <div class="text-center mt-12 bg-blue-color text-white-color py-10 px-6">
+          <span class="opacity-50 text-2xl"> © 1384-1401 اسنوا؛ کلیه حقوق محفوظ است</span>
+      </div>
+    </footer>
+    <!-- End of footer -->
 
     <script src="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_js_all.min.js"></script>
     <script src="js/menu.js"></script>
