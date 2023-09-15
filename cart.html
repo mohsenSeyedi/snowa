@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سبد خرید</title>
+    <link rel="stylesheet" href="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_css_all.min.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header class="w-full h-32">
+    <div class="color-bar"></div>
+    <div class="bg-white-color flex justify-between items-center p-5">
+        <div class="header-logo">
+            <img class="w-60 h-20" src="images/logo/logo-type.svg" alt="snowa">
+        </div>
+        <div class="fixed bg-white-color w-29 h-90vh right-(-100) top-32 z-1000 shadow-cart-container transition-all duration-300 overflow-y-auto" id="header-container-nav">
+            <div class="side-menu-accordion-body">
+                <nav class="accordion arrows">
+           
+                    <input type="radio" name="accordion" id="cb1" />
+                    <section class="box">
+                      <label class="box-title" for="cb1">محصولات</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content-container">
+                        <a href="#" class="box-content">تلویزیون</a>
+                        <a href="#" class="box-content">ماشین لباسشویی</a>
+                        <a href="#" class="box-content">اجاق گاز</a>
+                        <a href="#" class="box-content">یخچال و فریزر</a>
+                        <a href="#" class="box-content">ماشین ظرفشویی</a>
+                      </div>
+                    </section>
+                    <input type="radio" name="accordion" id="cb2" />
+                    <section class="box">
+                      <label class="box-title" for="cb2">جشنواره‌ها</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content-container">
+                        <a href="#" class="box-content">جشنواره تابستانه ۱۴۰۲</a>
+                        <a href="#" class="box-content">طرح فروش اقساطی</a>
+                        <a href="#" class="box-content">جشنواره زمستانه ۱۴۰۱</a>
+                        <a href="#" class="box-content">فعال سازی کارت تخفیف</a>
+                      </div>
+                    </section>
+                    <a href="#" class="box">
+                      <label class="box-title">فروشگاه ها</label>
+                    </a>
+                    <a href="#" class="box">
+                      <label class="box-title">چرا اسنوا</label>
+                    </a>
+                    <a href="#" class="box">
+                      <label class="box-title">سبک زندگی</label>
+                    </a>
+                    <input type="radio" name="accordion" id="cb3" />
+                    <section class="box">
+                      <label class="box-title" for="cb3">خدمات</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content-container">
+                        <a href="#" class="box-content">درخواست نصب و تعمیر</a>
+                        <a href="#" class="box-content">خدمات پس از فروش</a>
+                      </div>
+                    </section>
+                
+                    <input type="radio" name="accordion" id="acc-close" />
+                  </nav>
+                  <div class="flex items-center justify-end border-t border-solid border-[#d2d2d2] mt-48">
+                    <button class="my-8 mx-4 border-none">
+                        <a href="login.html">
+                            <i class="fa-regular fa-user text-4xl"></i>
+                        </a>
+                    </button>
+                   </div> 
+            </div>
+        </div>
+        <div class="fixed bg-white-color w-45 h-90vh right-(-60) top-32 z-1000 shadow-cart-container transition-all duration-300 overflow-y-hidden flex flex-col items-center" id="cart-container-wrap">
+            <div class="w-full shadow-cart-header py-8 px-0 text-[#363636]">
+                <div class="flex items-center justify-center ml-25">
+                    <span class="relative after:contents[''] after:absolute after:w-.8 after:h-.8 after:rounded-full after:bg-[#f22b2b] after:bottom-0 after:right-(-.2)">
+                        <i class="fa fa-bag-shopping text-3xl"></i>
+                    </span>
+                    <p class="mr-6 text-2xl">سبد خرید</p>
+                </div>
+            </div>
+            <div class="text-center block m-auto py-40% px-0 opacity-40">سبد خرید خالی است</div>
+        </div>
+        <div class="header-btns flex items-center">
+            <div class="header-cart-btn ml-4 mt-4">
+                <i class="fa fa-bag-shopping text-4xl mt-4 cursor-pointer text-primery-color"></i>
+            </div>
+            <div class="header-sreach ml-6 mr-4 mt-4">
+                <i class="fa-solid fa-magnifying-glass mt-4 text-primery-color" style="font-size: 2rem;"></i>
+            </div>
+            <div class="header-nav-btn ml-6 mr-4 relative left-4 -top-4">
+                <i class="fa-solid fa-bars opening-nav absolute btn-menu"></i>
+                <i class="fa-solid fa-xmark close-nav absolute btn-menu invisible"></i>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col absolute -top-80 w-full h-60 bg-white-color z-999 transition-all duration-500 shadow-search" id="box-search-bar">
+        <input class="border-none text-4xl font-body px-8 py-8 placeholder:text-[#ababab]" type="text" placeholder="به دنبال چی میگردید ؟!" id="box-search-input"> 
+        <small class="text-2xl pr-8 text-[#ababab]">نمایش نتایج از</small>
+        <span class="text-primery-color text-2xl pt-4 pr-8 pl-0 pb-0">بخش محصولات</span>
+    </div>
+    </header>
+    <!-- End of header -->
+
+    <div class="container-cart page-container h-auto"></div>
+    
+
+
+    <script src="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_js_all.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

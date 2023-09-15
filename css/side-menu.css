@@ -6,7 +6,7 @@
 } 
  .accordion {
     margin: auto;
-   width: 100%;
+    width: 100%;
 }
 .accordion input {
   display: none;

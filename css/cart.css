@@ -1,0 +1,42 @@
+@import "./default-style.css";
+@import "./footer.css";
+@import "./side-menu.css";
+
+body{
+    background-color: #f7f7f7;
+}
+.container-cart{
+    position: relative;
+    width: 100%;
+    height: 72rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-cart::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    top: 0;
+    visibility: hidden;
+}
+.container-cart.active::after{
+    visibility: visible;
+}
+
+/* actived */
+#box-search-bar.active{
+    top: 8rem;
+ }
+ 
+#cart-container-wrap.active{
+    right: 0;
+}
+
+#header-container-nav.active{
+    right: 0;
+}

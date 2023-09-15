@@ -1,7 +1,8 @@
 const cartBtn=document.querySelector(".header-cart-btn")
 const cartContainer=document.querySelector("#cart-container-wrap")
 
-
+console.log(cartBtn);
+console.log(cartContainer);
 
 // cart
 cartBtn.addEventListener("click" , () => {

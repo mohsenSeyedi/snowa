@@ -9,7 +9,7 @@ const searchBox=document.querySelector("#box-search-bar")
 const searchBtn=document.querySelector(".header-sreach")
 const searchInput=document.querySelector("#box-search-input")
 
-
+console.log(bannerContainer);
 
 
 
