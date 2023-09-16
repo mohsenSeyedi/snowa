@@ -923,10 +923,6 @@ video {
   margin-top: 20rem;
 }
 
-.mt-56 {
-  margin-top: 14rem;
-}
-
 .box-content {
   box-sizing: content-box;
 }
@@ -1480,6 +1476,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -1530,6 +1531,10 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-center {
