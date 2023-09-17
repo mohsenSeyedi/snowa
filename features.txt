@@ -1,0 +1,59 @@
+Authentication : {
+
+    register : { 
+        1 : username 
+        2 : email 
+        3 : password 
+        4 : phone number 
+
+        user object for register (username , email , phone number , password)
+    }
+
+    login : {
+        1 : username or email or phone number 
+        2 : password
+        3 : forget password
+
+        user object for login {username or email or phone number , password } 
+    }
+}
+
+Filtering and Searching : {
+    1 : get result 
+}
+
+Basket : {
+    1: add Produc 
+    2: show products
+    3: show total price
+    4: delete product
+    5: clear basket
+    6: update basket
+    7: set discounts // تخفیف
+    8: the payment
+}
+
+Products : {
+    1: all Products 
+    2: one Produc // جزئیات محصولات
+    3: create Product => سمت پنل مدیریت 
+}
+
+Products-category : {
+    1: all category products
+    2: create category Product
+    3: delete category product
+}
+
+Article : {
+    1: create
+    2: All Article
+    3: one Article // جزئیات مقاله
+    4: delete Article
+}
+
+Contact : {
+    1: create
+    2: All communications => سمت پنل مدیریت 
+    3: answer => سمت پنل مدیریت 
+}
