@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSans/IRANSans.ttf');
+}
+@tailwind utilities;
+
+
+@layer components {
+    .btn-menu {
+        @apply text-5xl text-[#0182c6] cursor-pointer
+    }
+    .color-bar{
+        @apply shadow-bar absolute h-px top-0 left-0 right-0
+    }
+    .banner-icon{
+        @apply my-0 mx-16 flex flex-col items-center justify-center
+    }
+    .banner-icon-title {
+        @apply text-xl text-primery-color text-center pt-4
+    }
+    .intro-introduction {
+       @apply absolute bg-blue-green text-white-color font-bold py-8 px-14 text-4xl rounded-lg shadow-intro-introduction sm:px-10 sm:py-4 sm:text-2xl
+    }
+    .sub-intro-introduction {
+       @apply absolute bg-white-color text-2xl py-6 px-5 rounded-lg text-[#373737] opacity-90
+    }
+    .cart-icon{
+        @apply w-28 h-28 brightness-5.5
+    }
+}
+
+html{
+    @apply font-body
+}
+
+a{
+    @apply text-primery-color
+}
+*{
+    @apply border-none; 
+    outline: none;
+}

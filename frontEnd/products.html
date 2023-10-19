@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_css_all.min.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="css/products.css">
+    <title>تلویزیون</title>
+</head>
+<body>
+
+
+   <!-- header -->
+   <header class="w-full h-32">
+    <div class="color-bar"></div>
+    <div class="bg-white-color flex justify-between items-center p-5">
+        <div class="header-logo">
+            <img class="w-60 h-20" src="images/logo/logo-type.svg" alt="snowa">
+        </div>
+        <div class="fixed bg-white-color w-29 h-90vh right-(-100) top-32 z-1000 shadow-cart-container transition-all duration-300 overflow-y-auto" id="header-container-nav">
+            <div class="side-menu-accordion-body">
+                <nav class="accordion arrows">
+           
+                    <input type="radio" name="accordion" id="cb1" />
+                    <section class="box">
+                      <label class="box-title" for="cb1">محصولات</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content-container">
+                        <a href="#" class="box-content">تلویزیون</a>
+                        <a href="#" class="box-content">ماشین لباسشویی</a>
+                        <a href="#" class="box-content">اجاق گاز</a>
+                        <a href="#" class="box-content">یخچال و فریزر</a>
+                        <a href="#" class="box-content">ماشین ظرفشویی</a>
+                      </div>
+                    </section>
+                    <input type="radio" name="accordion" id="cb2" />
+                    <section class="box">
+                      <label class="box-title" for="cb2">جشنواره‌ها</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content-container">
+                        <a href="#" class="box-content">جشنواره تابستانه ۱۴۰۲</a>
+                        <a href="#" class="box-content">طرح فروش اقساطی</a>
+                        <a href="#" class="box-content">جشنواره زمستانه ۱۴۰۱</a>
+                        <a href="#" class="box-content">فعال سازی کارت تخفیف</a>
+                      </div>
+                    </section>
+                    <a href="#" class="box">
+                      <label class="box-title">فروشگاه ها</label>
+                    </a>
+                    <a href="#" class="box">
+                      <label class="box-title">چرا اسنوا</label>
+                    </a>
+                    <a href="#" class="box">
+                      <label class="box-title">سبک زندگی</label>
+                    </a>
+                    <input type="radio" name="accordion" id="cb3" />
+                    <section class="box">
+                      <label class="box-title" for="cb3">خدمات</label>
+                      <label class="box-close" for="acc-close"></label>
+                      <div class="box-content-container">
+                        <a href="#" class="box-content">درخواست نصب و تعمیر</a>
+                        <a href="#" class="box-content">خدمات پس از فروش</a>
+                      </div>
+                    </section>
+                
+                    <input type="radio" name="accordion" id="acc-close" />
+                  </nav>
+                  <div class="flex items-center justify-end border-t border-solid border-[#d2d2d2] mt-48">
+                    <button class="my-8 mx-4 border-none">
+                        <a href="login.html">
+                            <i class="fa-regular fa-user text-4xl"></i>
+                        </a>
+                    </button>
+                   </div> 
+            </div>
+        </div>
+        <div class="fixed bg-white-color w-45 h-90vh right-(-60) top-32 z-1000 shadow-cart-container transition-all duration-300 overflow-y-hidden flex flex-col items-center" id="cart-container-wrap">
+            <div class="w-full shadow-cart-header py-8 px-0 text-[#363636]">
+                <div class="flex items-center justify-center ml-25">
+                    <span class="relative after:contents[''] after:absolute after:w-.8 after:h-.8 after:rounded-full after:bg-[#f22b2b] after:bottom-0 after:right-(-.2)">
+                        <i class="fa fa-bag-shopping text-3xl"></i>
+                    </span>
+                    <p class="mr-6 text-2xl">سبد خرید</p>
+                </div>
+            </div>
+            <div class="text-center block m-auto py-40% px-0 opacity-40">سبد خرید خالی است</div>
+        </div>
+        <div class="header-btns flex items-center">
+            <div class="header-cart-btn ml-4 mt-4">
+                <a href="cart.html"><i class="fa fa-bag-shopping text-4xl mt-4 cursor-pointer text-primery-color"></i></a>
+            </div>
+            <div class="header-sreach ml-6 mr-4 mt-4">
+                <i class="fa-solid fa-magnifying-glass mt-4 text-primery-color" style="font-size: 2rem;"></i>
+            </div>
+            <div class="header-nav-btn ml-6 mr-4 relative left-4 -top-4">
+                <i class="fa-solid fa-bars opening-nav absolute btn-menu"></i>
+                <i class="fa-solid fa-xmark close-nav absolute btn-menu invisible"></i>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col absolute -top-80 w-full h-60 bg-white-color z-999 transition-all duration-500 shadow-search" id="box-search-bar">
+        <input class="border-none text-4xl font-body px-8 py-8 placeholder:text-[#ababab]" type="text" placeholder="به دنبال چی میگردید ؟!" id="box-search-input"> 
+        <small class="text-2xl pr-8 text-[#ababab]">نمایش نتایج از</small>
+        <span class="text-primery-color text-2xl pt-4 pr-8 pl-0 pb-0">بخش محصولات</span>
+    </div>
+   </header>
+   <!-- End of header -->
+
+   <!-- container-fluid  -->
+   <div class="container-fluid page-container h-auto">
+    <!-- list-filters -->
+    <div class="w-full h-44 bg-white-color mt8 md:h-96 smd:h-60vh">
+        <div class="w-full h-24 md:flex md:flex-col md:h-2/3">
+            <div class="w-full h-full flex items-center justify-around py-0 px-12 lg:grid lg:grid-cols-4 lg:gap-y-10 smd:grid-cols-2">
+                <div class="list-filters-product lg:py-4">
+                    <a class="list-filters-product-text active" href="#" class="active">تلویزیون</a>
+                </div>
+                <div class="list-filters-product lg:py-4">
+                    <a class="list-filters-product-text" href="#">ماشین لباسشویی</a>
+                </div>
+                <div class="list-filters-product lg:py-4">
+                    <a class="list-filters-product-text" href="#">اجاق‌گاز</a>
+                </div>
+                <div class="list-filters-product lg:py-4">
+                    <a class="list-filters-product-text" href="#">یخچال و فریزر</a>
+                </div>
+                <div class="list-filters-product lg:py-4 lg:col-start-2 smd:col-start-1">
+                    <a class="list-filters-product-text" href="#">ماشین ظرفشویی</a>
+                </div>
+                <div class="list-filters-product lg:py-4 ">
+                    <a class="list-filters-product-text" href="#"> لوازم خانگی </a>
+                </div>
+                <div class="list-filters-product lg:py-4 smd:col-span-2">
+                    <a class="list-filters-product-text" href="#">محصولات توکار</a>
+                </div>
+            </div>
+            <div class="w-full h-full pt-4 pr-16 pb-4 pl-0 flex items-center justify-between md:self-end smd:mt-10">
+                <button class="border-none bg-white-color font-body cursor-pointer flex items-center">
+                    <svg class="icon w-12 h-12" xmlns="http://www.w3.org/2000/svg" id="filter" viewBox="0 0 30 28.8">
+                        <linearGradient id="filter-a" gradientUnits="userSpaceOnUse" x1="-19.334" y1="40.882" x2="-18.537" y2="41.189" gradientTransform="matrix(13.1001 0 0 -8.407 262.533 356.844)">
+                            <stop offset="0" stop-color="#78be1e"></stop>
+                            <stop offset="1" stop-color="#00bee6"></stop>
+                        </linearGradient>
+                        <path fill="#333" d="M28.4 0H1.6C.7 0 0 .8 0 1.9V5c0 1.1.7 1.9 1.6 1.9h1l9.5 11.5v9.4c0 .4.2.8.6.9.1 0 .2.1.4.1.3 0 .5-.1.7-.3l3.5-3.7c.2-.2.3-.4.3-.7v-5.8l9.5-11.5h1.1c1.1.1 1.8-.7 1.8-1.8V1.9C30 .8 29.3 0 28.4 0zM16.2 17c-.3.3-.5.8-.5 1.3v5.4l-1.5 1.6v-7c0-.5-.2-.9-.5-1.2L5.3 7h19.3l-8.4 10zM28 4.9H2V2h26v2.9z"></path>
+                        <path opacity=".36" fill="url(#filter-a)" d="M8.4 8.3h13.1l-6.6 8.4-6.5-8.4z"></path>
+                    </svg>
+                    <span class="text-2xl">فیلتر کنید</span>
+                </button>
+                <button class="border-none bg-white-color font-body ml-8 opacity-60 cursor-pointer">
+                    <i class="fa fa-angle-down"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+     <!-- End of list-filters -->
+
+     <div class="w-full h-auto flex justify-center">
+        <div class="cards-products__container w-95% h-auto pt-16 grid grid-cols-3 gap-x-8 lg:grid-cols-2 md:flex md:flex-col md:items-center">
+            <div class="card-product">
+                <div class="card-product__content">
+                    <div class="card-product-contaent__img">
+                        <a href="ProductDetails.html">
+                            <img src="images/card-prodects/63-SQL-65QK16000U_0d4l-ce.jpg" alt="تلویزیون" class="product-card-img">
+                        </a>
+                    </div>
+                    <div class="card-product__title">
+                        <a href="#" class="card-product-title__link">تلویزیون هوشمند QLED اسنوا سایز 65 اینچ</a>
+                    </div>
+                    <div class="card-product-model">SSD-65SK700UD</div>
+                    <div class="card-product__price">
+                        <p>خرید نقدی </p>
+                        <div class="card-product__price-original">
+                            <span>35,400,000</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="card-product__send">
+                        <div class="card-product__send-icon">
+                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-gear"></i>
+                            <span>هزینه ارسال و نصب افزوده می گردد</span>
+                        </div>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__btn">
+                            <a href="#" class="card-product__btn-link">اطلاعات بیشتر و خرید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-product">
+                <div class="card-product__content">
+                    <div class="card-product-contaent__img">
+                        <a href="#">
+                            <img src="images/card-prodects/36-SSD-65SK15100U_ka8j-5f.jpg" alt="تلویزیون" class="product-card-img">
+                        </a>
+                    </div>
+                    <div class="card-product__title">
+                        <a href="#" class="card-product-title__link">تلویزیون هوشمند QLED اسنوا سایز 65 اینچ</a>
+                    </div>
+                    <div class="card-product-model">SSD-65SK700UD</div>
+                    <div class="card-product__price">
+                        <p>خرید نقدی </p>
+                        <div class="card-product__price-original">
+                            <span>35,400,000</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="card-product__send">
+                        <div class="card-product__send-icon">
+                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-gear"></i>
+                            <span>هزینه ارسال و نصب افزوده می گردد</span>
+                        </div>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__btn">
+                            <a href="#" class="card-product__btn-link">اطلاعات بیشتر و خرید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-product">
+                <div class="card-product__content">
+                    <div class="card-product-contaent__img">
+                        <a href="#">
+                            <img src="images/card-prodects/35-SSD-65SK15000U_0ysx-8f.jpg" alt="تلویزیون" class="product-card-img">
+                        </a>
+                    </div>
+                    <div class="card-product__title">
+                        <a href="#" class="card-product-title__link">تلویزیون هوشمند QLED اسنوا سایز 65 اینچ</a>
+                    </div>
+                    <div class="card-product-model">SSD-65SK700UD</div>
+                    <div class="card-product__price">
+                        <p>خرید نقدی </p>
+                        <div class="card-product__price-original">
+                            <span>35,400,000</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="card-product__send">
+                        <div class="card-product__send-icon">
+                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-gear"></i>
+                            <span>هزینه ارسال و نصب افزوده می گردد</span>
+                        </div>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__btn">
+                            <a href="#" class="card-product__btn-link">اطلاعات بیشتر و خرید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-product">
+                <div class="card-product__content">
+                    <div class="card-product-contaent__img">
+                        <a href="#">
+                            <img src="images/card-prodects/38-SSD-43SK14000M_gc5n-66_ozlr-nd.jpg" alt="تلویزیون" class="product-card-img">
+                        </a>
+                    </div>
+                    <div class="card-product__title">
+                        <a href="#" class="card-product-title__link">تلویزیون هوشمند QLED اسنوا سایز 65 اینچ</a>
+                    </div>
+                    <div class="card-product-model">SSD-65SK700UD</div>
+                    <div class="card-product__price">
+                        <p>خرید نقدی </p>
+                        <div class="card-product__price-original">
+                            <span>35,400,000</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="card-product__send">
+                        <div class="card-product__send-icon">
+                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-gear"></i>
+                            <span>هزینه ارسال و نصب افزوده می گردد</span>
+                        </div>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__btn">
+                            <a href="#" class="card-product__btn-link">اطلاعات بیشتر و خرید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-product">
+                <div class="card-product__content">
+                    <div class="card-product-contaent__img">
+                        <a href="#">
+                            <img src="images/card-prodects/60-SSD-75SK15100U_zpsu-2n.jpg" alt="تلویزیون" class="product-card-img">
+                        </a>
+                    </div>
+                    <div class="card-product__title">
+                        <a href="#" class="card-product-title__link">تلویزیون هوشمند QLED اسنوا سایز 65 اینچ</a>
+                    </div>
+                    <div class="card-product-model">SSD-65SK700UD</div>
+                    <div class="card-product__price">
+                        <p>خرید نقدی </p>
+                        <div class="card-product__price-original">
+                            <span>35,400,000</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="card-product__send">
+                        <div class="card-product__send-icon">
+                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-gear"></i>
+                            <span>هزینه ارسال و نصب افزوده می گردد</span>
+                        </div>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__btn">
+                            <a href="#" class="card-product__btn-link">اطلاعات بیشتر و خرید</a>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+            <div class="card-product">
+                <div class="card-product__content">
+                    <div class="card-product-contaent__img">
+                        <a href="#">
+                            <img src="images/card-prodects/62-SSD-75SA660U_qvli-wb.jpg" alt="تلویزیون" class="product-card-img">
+                        </a>
+                    </div>
+                    <div class="card-product__title">
+                        <a href="#" class="card-product-title__link">تلویزیون هوشمند QLED اسنوا سایز 65 اینچ</a>
+                    </div>
+                    <div class="card-product-model">SSD-65SK700UD</div>
+                    <div class="card-product__price">
+                        <p>خرید نقدی </p>
+                        <div class="card-product__price-original">
+                            <span>35,400,000</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="card-product__send">
+                        <div class="card-product__send-icon">
+                            <i class="fas fa-truck"></i>
+                            <i class="fas fa-plus"></i>
+                            <i class="fas fa-gear"></i>
+                            <span>هزینه ارسال و نصب افزوده می گردد</span>
+                        </div>
+                    </div>
+                    <div class="card-product__footer">
+                        <div class="card-product__btn">
+                            <a href="#" class="card-product__btn-link">اطلاعات بیشتر و خرید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+   </div>
+   <!-- container-fluid  -->
+
+    <!-- footer -->
+    <footer class="footer w-full relative pt-8">
+        <div class="color-bar mt-10"></div>
+        <div class="footer-wrap mt-8 pb-8">
+            <div class="footer-icons-wrapper flex items-center justify-center mt-12 lg:flex-wrap sm:grid sm:grid-cols-2">
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/2.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">تلویزیون</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">هوشمند</a>
+                        <a href="#">50 اینچ</a>
+                        <a href="#">55 اینچ</a>
+                        <a href="#">65 اینچ</a>
+                        <a href="#">75 اینچ</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/1.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">ماشین لباسشویی</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">دیجیتال اینورتر</a>
+                        <a href="#">7 کیلوگرم</a>
+                        <a href="#">8 کیلوگرم</a>
+                        <a href="#">9 کیلوگرم</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/3.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">یخچال فریزر</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">ساید بای ساید</a>
+                        <a href="#">یخچال فریزر تک درب</a>
+                        <a href="#">فریزر بالا</a>
+                        <a href="#">فریزر پایین</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/4.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">اجاق گاز</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">سری Chef</a>
+                        <a href="#">سری رومینا</a>
+                        <a href="#">سری آترینا</a>
+                        <a href="#">سری والنتینو</a>
+                        <a href="#">سری آدرینا</a>
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <img src="images/banner/banner-icon/5.svg" alt="" class="banner-icon-img">
+                    <a href="#">
+                    <p class="footer-icon-title">ماشین ظرفشویی</p>
+                    </a>
+                    <div class="product-model">
+                        <a href="#">14 نفره</a>
+                        <a href="#">12 نفره</a>
+                        <a href="#">10 نفره</a>
+                        <a href="#">8 نفره</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-1 rounded-md bg-[#E6E6E6] mb-14"></div>
+        <div class="flex flex-col justify-center pr-4 mb-28 lg:items-center">
+            <img src="images/logo/logo-type.svg" alt="" class="w-60 h-20 mr-8">
+            <div class="flex border-y-2 border-solid border-[#cccccc] justify-between w-3/12 py-6 sm:w-5/12">
+                <a href="#"><img src="images/social-icon/telegram.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/instagram.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/aparat-1-150x150.png" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/linkedin.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+                <a href="#"><img src="images/social-icon/twitter.svg" alt="" class="footer-social-icon-img lg:mx-4"></a>
+            </div>
+            <p class="text-blue-900 text-2xl font-bold mt-5">اسنـوا را در شبکه‌های اجتماعی دنبال کنید</p>
+        </div>
+        <div class="text-center mt-12 bg-blue-color text-white-color py-10 px-6">
+            <span class="opacity-50 text-2xl"> © 1384-1401 اسنوا؛ کلیه حقوق محفوظ است</span>
+        </div>
+      </footer>
+      <!-- End of footer -->
+
+
+    <script src="vendor/FontAwesome6/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.0_js_all.min.js"></script>
+    <script src="js/menu.js"></script>
+     
+</body>
+</html>

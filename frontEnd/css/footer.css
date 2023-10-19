@@ -1,0 +1,43 @@
+@import "./default-style.css";
+
+.footer div{
+   margin-top: 3rem;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6rem;
+}
+.product-model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product-model a{
+    padding: .6rem 0;
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}
+.footer-icon-title{
+    font-size: 1.2rem;
+    color: #707070;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.footer-social-icon a{
+    padding: 1rem .7rem;
+}
+.footer-social-icon-img{
+    opacity: 0.6;
+    transition: all .2s;
+    width: 2rem;
+    height: 2rem;
+}
+.footer-social-icon-img:hover{
+    opacity: 1;
+}
