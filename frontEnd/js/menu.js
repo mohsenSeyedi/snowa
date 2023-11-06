@@ -8,7 +8,7 @@ const headerInfo=document.querySelector(".header-info button");
 const searchBox=document.querySelector("#box-search-bar")
 const searchBtn=document.querySelector(".header-sreach")
 const searchInput=document.querySelector("#box-search-input")
-
+const html = document.documentElement;
 console.log(bannerContainer);
 
 
@@ -51,7 +51,7 @@ document.addEventListener('click', (e) => {
         removeBgDarkBanner()
     }
 });
-  
+
   // End of menu
 
 
